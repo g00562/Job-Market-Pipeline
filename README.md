@@ -214,16 +214,6 @@ Skills            : Python, Spark, Airflow, SQL, AWS
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Add Foundit.in as second data source
-- [ ] Deploy on AWS EC2 for 24/7 automation
-- [ ] Add dbt for advanced transformations
-- [ ] Add Slack alerts for pipeline failures
-- [ ] Build REST API to serve job data
-
----
-
 ## 🙋 Author
 
 **Ishan**
