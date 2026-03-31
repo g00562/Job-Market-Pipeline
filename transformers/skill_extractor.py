@@ -1,58 +1,39 @@
 import re
 from loguru import logger
 
-# Master list of Data Engineering skills to detect
 DE_SKILLS = [
-    # Languages
-    "python", "sql", "scala", "java", "bash", "r",
-    # Big Data
+    "python", "sql", "scala", "java", "bash",
     "apache spark", "spark", "hadoop", "hive", "kafka",
-    "flink", "storm", "pig",
-    # Databases
+    "flink", "pig",
     "postgresql", "mysql", "mongodb", "cassandra", "redis",
-    "elasticsearch", "dynamodb", "hbase",
-    # Cloud
+    "elasticsearch", "dynamodb",
     "aws", "gcp", "azure", "s3", "ec2", "glue",
     "bigquery", "redshift", "snowflake", "databricks",
     "azure data factory", "dataflow",
-    # Orchestration
-    "airflow", "apache airflow", "prefect", "dagster", "luigi",
-    # Transformation
+    "airflow", "apache airflow", "prefect", "dagster",
     "dbt", "data build tool",
-    # Streaming
-    "kafka", "kinesis", "pub/sub", "rabbitmq",
-    # DevOps
+    "kafka", "kinesis", "rabbitmq",
     "docker", "kubernetes", "terraform", "git", "github",
     "jenkins", "ci/cd",
-    # Visualization
-    "tableau", "power bi", "looker", "superset", "metabase",
-    # Concepts
-    "etl", "elt", "data warehouse", "data lake", "data lakehouse",
+    "tableau", "power bi", "looker", "superset",
+    "etl", "elt", "data warehouse", "data lake",
     "data pipeline", "data modeling", "data quality",
-    "rest api", "graphql", "microservices",
+    "rest api", "microservices",
 ]
 
 def extract_skills(text: str) -> list:
     if not text:
         return []
-
-    text_lower = text.lower()
+    text_lower   = text.lower()
     found_skills = []
-
     for skill in DE_SKILLS:
-        # Use word boundary matching for accuracy
         pattern = r"\b" + re.escape(skill) + r"\b"
         if re.search(pattern, text_lower):
-            # Store in clean title case
             found_skills.append(skill.title())
-
-    # Remove duplicates while preserving order
-    seen = set()
-    unique_skills = []
+    seen   = set()
+    unique = []
     for skill in found_skills:
         if skill.lower() not in seen:
             seen.add(skill.lower())
-            unique_skills.append(skill)
-
-    logger.debug(f"Extracted {len(unique_skills)} skills")
-    return unique_skills
+            unique.append(skill)
+    return unique

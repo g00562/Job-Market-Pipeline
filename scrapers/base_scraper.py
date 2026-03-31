@@ -6,7 +6,7 @@ import random
 
 class BaseScraper:
     def __init__(self, source: str):
-        self.source = source
+        self.source  = source
         self.headers = {
             "User-Agent": (
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -19,11 +19,10 @@ class BaseScraper:
 
     def get_page(self, url: str) -> BeautifulSoup | None:
         try:
-            # Random delay between 2-5 seconds to avoid getting blocked
             time.sleep(random.uniform(2, 5))
             response = requests.get(url, headers=self.headers, timeout=15)
             response.raise_for_status()
-            logger.info(f"Fetched page: {url}")
+            logger.info(f"Fetched: {url}")
             return BeautifulSoup(response.text, "lxml")
         except Exception as e:
             logger.error(f"Failed to fetch {url}: {e}")

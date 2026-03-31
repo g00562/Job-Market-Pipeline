@@ -22,7 +22,7 @@ def get_connection():
 
 def create_tables():
     conn = get_connection()
-    cur = conn.cursor()
+    cur  = conn.cursor()
     try:
         with open("sql/create_tables.sql", "r") as f:
             sql = f.read()
@@ -39,12 +39,13 @@ def create_tables():
 
 def insert_raw_job(job: dict) -> int:
     conn = get_connection()
-    cur = conn.cursor()
+    cur  = conn.cursor()
     try:
         cur.execute("""
-            INSERT INTO jobs_raw 
-                (source, title, company, location, salary_raw, experience, description, url)
-            VALUES 
+            INSERT INTO jobs_raw
+                (source, title, company, location, salary_raw,
+                 experience, description, url)
+            VALUES
                 (%(source)s, %(title)s, %(company)s, %(location)s,
                  %(salary_raw)s, %(experience)s, %(description)s, %(url)s)
             RETURNING id;
@@ -63,15 +64,17 @@ def insert_raw_job(job: dict) -> int:
 
 def insert_cleaned_job(job: dict) -> int:
     conn = get_connection()
-    cur = conn.cursor()
+    cur  = conn.cursor()
     try:
         cur.execute("""
             INSERT INTO jobs_cleaned
                 (raw_id, title_std, company, city, is_remote,
-                 salary_min, salary_max, experience_min, experience_max, source)
+                 salary_min, salary_max, experience_min,
+                 experience_max, source)
             VALUES
-                (%(raw_id)s, %(title_std)s, %(company)s, %(city)s, %(is_remote)s,
-                 %(salary_min)s, %(salary_max)s, %(experience_min)s, %(experience_max)s, %(source)s)
+                (%(raw_id)s, %(title_std)s, %(company)s, %(city)s,
+                 %(is_remote)s, %(salary_min)s, %(salary_max)s,
+                 %(experience_min)s, %(experience_max)s, %(source)s)
             RETURNING id;
         """, job)
         job_id = cur.fetchone()[0]
@@ -88,7 +91,7 @@ def insert_cleaned_job(job: dict) -> int:
 
 def insert_skills(job_id: int, skills: list, source: str):
     conn = get_connection()
-    cur = conn.cursor()
+    cur  = conn.cursor()
     try:
         for skill in skills:
             cur.execute("""
@@ -107,7 +110,7 @@ def insert_skills(job_id: int, skills: list, source: str):
 
 def job_exists(url: str) -> bool:
     conn = get_connection()
-    cur = conn.cursor()
+    cur  = conn.cursor()
     try:
         cur.execute("SELECT id FROM jobs_raw WHERE url = %s", (url,))
         return cur.fetchone() is not None
