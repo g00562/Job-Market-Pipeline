@@ -1,0 +1,945 @@
+title_std,company,city,is_remote,salary_min_lpa,salary_max_lpa,experience_min,experience_max,source,posted_at
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.018395
+Data Engineer Amazon Payments Finance Bi,Amazon,Bangalore,False,,,1.0,6.0,naukri,2026-03-27 17:36:06.032897
+Data Engineer,Hexaware Technologies,Bangalore,False,5.0,14.0,6.0,9.0,naukri,2026-03-27 17:36:06.046866
+Pyspark -Palantir Core- Data Engineer,Tata Consultancy Services,Bangalore,False,,,6.0,10.0,naukri,2026-03-27 17:36:06.066005
+Data Engineer,Adobe,Bangalore,False,,,9.0,14.0,naukri,2026-03-27 17:36:06.078867
+Data Engineer,Siemens,Bangalore,False,,,1.0,4.0,naukri,2026-03-27 17:36:06.092505
+Data Engineer - Scala,Capco,Bangalore,False,,,4.0,6.0,naukri,2026-03-27 17:36:06.099699
+Walk-In Data Engineer,Hexaware Technologies,,False,,,,,naukri,2026-03-27 17:36:06.114102
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.121779
+Data Engineer,Accenture,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:06.128822
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.135786
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.142766
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.149871
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.157367
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.164522
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.171704
+Data Engineer Gfs Global Finance Solution,Amazon,Bangalore,False,,,1.0,6.0,naukri,2026-03-27 17:36:06.178775
+Data Engineer - Datastage,Tata Consultancy Services,Bangalore,False,,,6.0,10.0,naukri,2026-03-27 17:36:06.185998
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,2.0,5.0,naukri,2026-03-27 17:36:06.193036
+Data Engineer,Hexaware Technologies,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:06.200060
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.207302
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,6.0,10.0,naukri,2026-03-27 17:36:06.214398
+Pyspark Data Engineer Bangalore Pune Chennai Gurugram,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:06.221642
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.228819
+Data Engineer,Accenture,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:06.236285
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.243462
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.250841
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.258173
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.271811
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.278923
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.286149
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.293388
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.307259
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.314407
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.321427
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.328617
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.335954
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.343334
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.350629
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.357613
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.364583
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.371981
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.379096
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.386245
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.393431
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.400611
+Data Engineer,Accenture,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.407622
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.421543
+Data Engineer,Accenture,Bangalore,False,,,2.0,5.0,naukri,2026-03-27 17:36:06.428927
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.436253
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.443719
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.451113
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.458538
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.465482
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.472577
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.479805
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.487106
+Google Data Engineer,Tata Consultancy Services,Bangalore,False,,,4.0,7.0,naukri,2026-03-27 17:36:06.494291
+Data Engineer,Hexaware Technologies,Bangalore,False,7.0,14.0,6.0,9.0,naukri,2026-03-27 17:36:06.501461
+Databricks Data Engineer,PwC India,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:06.515849
+Data Engineer,Accenture,Hyderabad,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.529681
+Data Engineer,Capgemini,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:06.537038
+Data Engineer,Google,Bangalore,False,,,0.0,0.0,naukri,2026-03-27 17:36:06.544193
+Ai Data Engineer,HCLTech,Bangalore,False,,,11.0,20.0,naukri,2026-03-27 17:36:06.551417
+Data Engineer,TOP MNC,Bangalore,False,10.0,20.0,6.0,11.0,naukri,2026-03-27 17:36:06.558568
+Data Engineer,EY,Bangalore,False,,,10.0,15.0,naukri,2026-03-27 17:36:06.572751
+Data Engineer,Hitachi Energy,Hyderabad,False,,,3.0,6.0,naukri,2026-03-27 17:36:06.579716
+Data Engineer,Lloyds Technology Centre India,Hyderabad,False,,,6.0,13.0,naukri,2026-03-27 17:36:06.593720
+Data Engineer,Accenture,Hyderabad,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.601020
+Data Engineer,Accenture,Hyderabad,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.608094
+Data Engineer-Databricks,Tata Consultancy Services,Bangalore,False,,,6.0,8.0,naukri,2026-03-27 17:36:06.615107
+Data Engineer,Accenture,Hyderabad,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.630191
+Data Engineer,Accenture,Hyderabad,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.637431
+Data Engineer,Accenture,Hyderabad,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.645165
+Data Engineer,Accenture,Hyderabad,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.658086
+Data Engineer,Accenture,Hyderabad,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.671619
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.678978
+Data Engineer,IQVIA,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:06.686156
+Data Engineer-Data Modeling,IBM,Pune,False,,,6.0,8.0,naukri,2026-03-27 17:36:06.700325
+Data Engineer,EXL,Pune,False,,,5.0,8.0,naukri,2026-03-27 17:36:06.714361
+Data Engineer,ONE OF THE BIG 4,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:06.721526
+Data Engineer,Fractal Analytics,Bangalore,False,,,3.0,7.0,naukri,2026-03-27 17:36:06.728746
+Data Engineer,Talentoj,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:06.743360
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.757150
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.764420
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.771593
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.778729
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.785904
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.793233
+Data Engineer-Data Modeling,IBM,Pune,False,,,12.0,17.0,naukri,2026-03-27 17:36:06.800292
+Data Engineer,EXL,Pune,False,,,5.0,8.0,naukri,2026-03-27 17:36:06.813901
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.821196
+Data Engineer - Python Pyspark Dbt,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:06.828370
+Data Engineer,Capgemini,Bangalore,False,,,8.0,13.0,naukri,2026-03-27 17:36:06.842943
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.856785
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.864139
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.871456
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.878571
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.885827
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-27 17:36:06.893216
+Data Engineer-Data Modeling,IBM,Pune,False,,,6.0,8.0,naukri,2026-03-27 17:36:06.900342
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.914226
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.921551
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.928988
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.936397
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.943760
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.950985
+Data Engineer,Accenture,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:06.958217
+Data Engineer,Accenture,Pune,False,,,5.0,10.0,naukri,2026-03-27 17:36:06.965459
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.972854
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.980041
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.987321
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:06.994354
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.001458
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.008593
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.015769
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.022901
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.030207
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.037651
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.044515
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.051506
+Data Engineer,Accenture,Pune,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.058673
+Data Engineer,Accenture,Pune,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.065738
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.073165
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.080454
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.087811
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.094982
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.102044
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.108943
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.116066
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.123503
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.130623
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.138000
+Data Engineer,Fractal Analytics,Mumbai,False,,,2.0,6.0,naukri,2026-03-27 17:36:07.145167
+Data Engineer Opening With Capco-Mumbai,Capco,Mumbai,False,,,2.0,7.0,naukri,2026-03-27 17:36:07.152472
+Data Engineer,Photon,Bangalore,False,,,3.0,7.0,naukri,2026-03-27 17:36:07.166595
+Data Engineer,Tata Consultancy Services,Mumbai,False,,,6.0,8.0,naukri,2026-03-27 17:36:07.173721
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.188382
+Data Engineer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.195598
+Data Engineer,Accenture,Mumbai,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.202694
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.209891
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.217020
+Data Engineer With Dq_Do,Fractal Analytics,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.231167
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.238685
+Data Engineer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.245955
+Data Engineer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.253283
+Data Engineer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.260577
+Data Engineer,Accenture,Mumbai,False,,,7.0,12.0,naukri,2026-03-27 17:36:07.267797
+Data Engineer,Accenture,Mumbai,False,,,7.0,12.0,naukri,2026-03-27 17:36:07.274989
+Data Engineer,Accenture,Mumbai,False,,,7.0,12.0,naukri,2026-03-27 17:36:07.282523
+Data Engineer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.289754
+Data Engineer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.296935
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.304219
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.317481
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.330659
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.338041
+Data Engineer,Accenture,Mumbai,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.345162
+Data Engineer,Accenture,Mumbai,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.352231
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.359202
+Data Engineer,Accenture,Mumbai,False,,,7.0,12.0,naukri,2026-03-27 17:36:07.366596
+Data Engineer,Accenture,Mumbai,False,,,7.0,12.0,naukri,2026-03-27 17:36:07.373694
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.381082
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.388368
+Data Engineer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.395465
+Data Engineer,Accenture,Hyderabad,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.402450
+Data Engineer,Photon,Bangalore,False,,,2.0,5.0,naukri,2026-03-27 17:36:07.409567
+Data Engineer,Photon,Bangalore,False,,,2.0,5.0,naukri,2026-03-27 17:36:07.423403
+Data Engineer - Chennai/Bangalore,Photon,Bangalore,False,,,3.0,6.0,naukri,2026-03-27 17:36:07.430888
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.444520
+Data Engineer Kafka Spark Streaming,Hdfc Bank,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.451640
+Data Engineer,Accenture,Mumbai,False,,,12.0,17.0,naukri,2026-03-27 17:36:07.466077
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.473449
+Data Engineer,Accenture,Mumbai,False,,,5.0,8.0,naukri,2026-03-27 17:36:07.480823
+Data Engineer,Hexaware Technologies,Pune,False,,,6.0,9.0,naukri,2026-03-27 17:36:07.487941
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.501513
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.508505
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.515702
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.523006
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.530199
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.537619
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.544695
+Data Engineer,Accenture,Mumbai,False,,,7.0,10.0,naukri,2026-03-27 17:36:07.551837
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.558932
+Data Engineer,Accenture,Mumbai,False,,,7.0,10.0,naukri,2026-03-27 17:36:07.566091
+Data Engineer,Accenture,Mumbai,False,,,7.0,10.0,naukri,2026-03-27 17:36:07.573299
+Data Engineer Python,Leading Client,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:07.580501
+Data Engineer,Accenture,Mumbai,False,,,12.0,15.0,naukri,2026-03-27 17:36:07.594380
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.601320
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.608401
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.615679
+Data Engineer,Tata Elxsi,Bangalore,False,15.0,30.0,9.0,14.0,naukri,2026-03-27 17:36:07.622991
+Data Engineer,CGI,Bangalore,False,20.0,22.5,6.0,9.0,naukri,2026-03-27 17:36:07.630359
+Hcl Tech Hiring For Python Pyspark Data Engineer,HCLTech,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.637618
+Data Engineer,Grid Dynamics,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:07.651117
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.658136
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.665277
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.672737
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.680213
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.687439
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.694824
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.701922
+Data Engineer,Hexaware Technologies,Bangalore,False,11.0,30.0,6.0,15.0,naukri,2026-03-27 17:36:07.709121
+Data Engineer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:07.723377
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.730534
+Google Data Engineer,Tata Consultancy Services,Chennai,False,,,3.0,5.0,naukri,2026-03-27 17:36:07.737866
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.744764
+Hadoop Spark Scala - Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,7.0,naukri,2026-03-27 17:36:07.751772
+Data Engineer,Accenture,Chennai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.766358
+Data Engineer,Photon,Chennai,False,,,2.0,7.0,naukri,2026-03-27 17:36:07.773861
+Data Engineer,Accenture,Chennai,False,,,7.0,10.0,naukri,2026-03-27 17:36:07.781251
+Data Engineer,Accenture,Chennai,False,,,2.0,4.0,naukri,2026-03-27 17:36:07.788632
+Data Engineer,Accenture,Chennai,False,,,7.0,12.0,naukri,2026-03-27 17:36:07.795658
+Data Engineer,Accenture,Chennai,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.802801
+Data Engineer,Accenture,Chennai,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.809825
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.817193
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.824482
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.831479
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.838786
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.846056
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.853140
+Data Engineer - Healthcare Domain,CGI,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:07.860075
+Data Engineer,Photon,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.873838
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.887677
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.894862
+Google Data Engineer,Tata Consultancy Services,Hyderabad,False,50000.0,3.0,3.0,6.0,naukri,2026-03-27 17:36:07.901992
+Data Engineer,Assa Abloy Entrance Systems,Chennai,False,,,4.0,5.0,naukri,2026-03-27 17:36:07.909373
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.916482
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.923839
+Data Engineer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:07.937007
+Data Engineer,Tata Consultancy Services,Pune,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.950017
+Data Engineer / Analyst,We Shine Academy,Chennai,False,,,0.0,3.0,naukri,2026-03-27 17:36:07.963981
+Gcp Data Engineer Big Query- Female Candidates,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.971579
+Opening For Gcp Data Engineer Big Query Pan India,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:07.985518
+Technical Architect Data Engineering Spark Python Any Cloud,Tavant,Bangalore,False,,,8.0,13.0,naukri,2026-03-27 17:36:07.999512
+Senior Data Engineer - Gcp,Equinix,Bangalore,False,,,0.0,8.0,naukri,2026-03-27 17:36:08.013819
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.027450
+Gcp Data Engineer,HCLTech,Bangalore,False,,,7.0,10.0,naukri,2026-03-27 17:36:08.041343
+Digital Health Senior Manager Data Engineering,Alcon Laboratories,Bangalore,False,,,10.0,15.0,naukri,2026-03-27 17:36:08.055317
+Gcp Data Engineer,Black and white Business Solutions,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.062924
+Manager Iii Data Engineering India Stores Tech,Amazon,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.077236
+Gcp Senior Data Engineer Rajaarunvodafonecom,VOIS,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:08.091643
+Senior Manager- Data Engineering,Zeiss Pharmaceuticals,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:08.105882
+Azure Databricks Data Engineer/Developer,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.112982
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,8.0,12.0,naukri,2026-03-27 17:36:08.127024
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.140874
+Senior Cloud Data Engineer,Mercedes Benz,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:08.155071
+Assistant Manager - Data Engineering,LatentView,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:08.162173
+Data Engineering Manager,Siro Clinpharm,Bangalore,False,,,6.0,8.0,naukri,2026-03-27 17:36:08.176065
+Gcp Data Engineer,Tredence,Bangalore,False,,,6.0,10.0,naukri,2026-03-27 17:36:08.183020
+Sr Mgr Data Engineering,Sinch,Bangalore,False,,,10.0,15.0,naukri,2026-03-27 17:36:08.196623
+Azure Databricks Data Engineer / Developer,Infosys,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:08.204145
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.218325
+Gcp Data Engineer,Ascendion Engineering,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.232310
+Manager - Data Engineering,Echostar Web Technology,Bangalore,False,,,14.0,19.0,naukri,2026-03-27 17:36:08.246721
+Cloud Data Engineer,Top MNC,Bangalore,False,4.3,9.3,6.0,8.0,naukri,2026-03-27 17:36:08.254249
+Gcp Data Engineer,Gitcs India,Bangalore,False,15.0,20.0,5.0,10.0,naukri,2026-03-27 17:36:08.268712
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,6.0,8.0,naukri,2026-03-27 17:36:08.282351
+Gcp Data Engineer Face To Face Drive On 4Th April,HCLTech,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.296121
+Gcp Data Engineer,Hexaware Technologies,Bangalore,False,8.0,16.0,4.0,9.0,naukri,2026-03-27 17:36:08.310730
+Engineering Manager - Data Platform,Harness,Bangalore,False,,,9.0,12.0,naukri,2026-03-27 17:36:08.324953
+Data/Cloud Engineer,Medtech,Bangalore,False,,,7.0,11.0,naukri,2026-03-27 17:36:08.331870
+Gcp Data Engineer With Python/Pyspark Expertise,Tredence,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:08.339287
+Data Engineering Manager,Tredence,Bangalore,False,,,8.0,13.0,naukri,2026-03-27 17:36:08.353735
+Staff Data Engineer - Gcp,Equinix,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.367647
+Manager Data Engineering,Smart,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.381319
+Cloud Data Engineer,ACL Digital,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.388680
+Opening For Gcp - Data Engineer,CMMi leve5 Company - A Client of SP Staffing,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.396133
+Gcp Data Engineer,LTIMindtree,Bangalore,False,15.0,30.0,5.0,10.0,naukri,2026-03-27 17:36:08.409811
+Gcp Data Engineer,Ascendion Engineering,Bangalore,False,,,6.0,8.0,naukri,2026-03-27 17:36:08.423438
+Etl Data Model Architect / Gcp Data Engineer / Nodejs,VOIS,Bangalore,False,,,10.0,20.0,naukri,2026-03-27 17:36:08.437178
+Gcp Data Engineer,66degrees,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.457178
+Gcp Data Engineer,Tredence,Bangalore,False,15.0,25.0,5.0,8.0,naukri,2026-03-27 17:36:08.477818
+Gcp Data Engineerweekday Virtual Interview,Tata Consultancy Services,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.491876
+Senior Data Engineer -Gcp,Tredence,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.505940
+Gcp Data Engineerweekday Virtual Interview,Tata Consultancy Services,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.519704
+Sr Gcp Data Engineer-Only Immediate Joiners,Ascendion Engineering,Bangalore,False,15.0,30.0,6.0,11.0,naukri,2026-03-27 17:36:08.533623
+Gcp Data Engineer,EY,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:08.548448
+Gcp Data Engineer,Trigent Software,Remote,True,10.0,20.0,4.0,8.0,naukri,2026-03-27 17:36:08.562529
+Gcp Data Engineer,Teamlease Digital,Bangalore,False,14.0,22.5,5.0,10.0,naukri,2026-03-27 17:36:08.576478
+Engineering Manager - Data Platform,MoEngage,Bangalore,False,,,8.0,13.0,naukri,2026-03-27 17:36:08.590599
+Salesforce Data Cloud Engineer,Winfort,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:08.597676
+Ibm Cloud Data Services Software Engineer,IBM,Bangalore,False,,,7.0,10.0,naukri,2026-03-27 17:36:08.605049
+Lead Data Engineer - Gcp,Leading Client,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.612212
+Data Engineering Manager - Remote,3Shool Technology Consultants,Remote,True,9.0,15.0,7.0,12.0,naukri,2026-03-27 17:36:08.626344
+Gcp Data Engineer,Tredence,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:08.633663
+Gcp Data Engineer,Tredence,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.647588
+Gcp Data Engineer - Bigquery,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.661439
+Gcp Data Engineer,Hexaware Technologies,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:08.675974
+Gcp Data Engineer,Ascendion Engineering,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.689762
+Gcp Data Engineer -Bigquery,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.703433
+Senior Data Engineer - Gcp,Equinix,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:08.717443
+Senior Manager - Data Engineering,Bristlecone,Bangalore,False,,,9.0,12.0,naukri,2026-03-27 17:36:08.737908
+Gcp Data Engineer,Black and white Business Solution,Bangalore,False,,,6.0,10.0,naukri,2026-03-27 17:36:08.751114
+Data Engineering - Senior Manager,Pepsico,Hyderabad,False,,,10.0,15.0,naukri,2026-03-27 17:36:08.765269
+Gcp Data Engineer- D365 Salesforce Integrations,Enterprise Minds,Remote,True,,,8.0,12.0,naukri,2026-03-27 17:36:08.772567
+Freelance Azure Data Engineer Developer / Lead,We're  Top Talent for Premier US Clients,Remote,True,12.0,18.0,4.0,9.0,naukri,2026-03-27 17:36:08.786858
+Data Engineering Manager,Healthedge,Hyderabad,False,35.0,40.0,10.0,18.0,naukri,2026-03-27 17:36:08.800975
+Gcp Data Engineer,Talworx,Hyderabad,False,10.0,17.0,8.0,13.0,naukri,2026-03-27 17:36:08.808055
+Data Engineering Research Manager,Accenture,Hyderabad,False,,,12.0,17.0,naukri,2026-03-27 17:36:08.822587
+Gcp Data Engineer,HCLTech,Hyderabad,False,,,7.0,11.0,naukri,2026-03-27 17:36:08.829782
+Associate Director - Data Engineering,S&P Global Market Intelligence,Hyderabad,False,,,10.0,14.0,naukri,2026-03-27 17:36:08.843368
+Gcp Data Engineer,Leading Client,Hyderabad,False,,,5.0,9.0,naukri,2026-03-27 17:36:08.857192
+Gcp Data Engineer Bigquery,Leading Client,Hyderabad,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.871549
+Immediate Hiring - Gcp Data Engineer,Motivity Labs,Hyderabad,False,,,5.0,10.0,naukri,2026-03-27 17:36:08.885869
+Gcp Data Engineer,Enterprise Minds,Remote,True,25.0,30.0,5.0,10.0,naukri,2026-03-27 17:36:08.899561
+Gcp Cloud Data Engineer,Leading Client,Hyderabad,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.913640
+Manager Cloud Data Engineering Engineering,Deloitte Consulting,Pune,False,,,12.0,17.0,naukri,2026-03-27 17:36:08.927907
+Data Engineering Managerassociate Director,Vipany Management Consulting,Pune,False,,,12.0,20.0,naukri,2026-03-27 17:36:08.934907
+Senior Manager - Data Engineering,Mercer,Pune,False,,,10.0,12.0,naukri,2026-03-27 17:36:08.949192
+Data Engineering Manager,Vipany Management Consulting,Pune,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.956441
+Gcp Data Engineer,Leading Client,Pune,False,,,1.0,1.0,naukri,2026-03-27 17:36:08.963664
+Principal Cloud Data Engineer,Northern Trust,Pune,False,,,15.0,20.0,naukri,2026-03-27 17:36:08.977861
+Manager Data Platform Engineering Nifisparkairflowjavapython,Mastercard,Pune,False,,,12.0,17.0,naukri,2026-03-27 17:36:08.984977
+Gcp Data Engineer,Talentico Consultancy Services,Pune,False,,,6.0,11.0,naukri,2026-03-27 17:36:08.999966
+Assistant Manager-Data Engineering-Big Data Engineering,EXL,Pune,False,,,2.0,3.0,naukri,2026-03-27 17:36:09.014534
+Salesforce Data Cloud Engineer,Winfort,Pune,False,,,5.0,8.0,naukri,2026-03-27 17:36:09.028778
+Senior Manager Engineering - Foundational Platform Data,QAD,Pune,False,,,12.0,17.0,naukri,2026-03-27 17:36:09.036137
+Gcp Data Engineer,Devangles Software,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:09.050141
+Senior Engineer _ Cloud Data Engineer,ZS,Pune,False,,,2.0,7.0,naukri,2026-03-27 17:36:09.064134
+Gcp Data Engineer,Persistent,Pune,False,,,7.0,12.0,naukri,2026-03-27 17:36:09.071695
+Gcp Data Engineer,Tredence,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:09.085951
+Gcp Data Engineer,Black and white Business Solution,Bangalore,False,,,6.0,10.0,naukri,2026-03-27 17:36:09.112121
+Engineering Data Manager/Manager -Data Team,StoneX,Pune,False,,,8.0,13.0,naukri,2026-03-27 17:36:09.130927
+Data Engineer - Cloud Etl Data Modeling Governance,Synechron,Pune,False,,,5.0,10.0,naukri,2026-03-27 17:36:09.138331
+Gcp Data Engineer,Tata Consultancy Services,Hyderabad,False,,,6.0,10.0,naukri,2026-03-27 17:36:09.152759
+Gcp Data Engineer,Capco,Pune,False,,,5.0,8.0,naukri,2026-03-27 17:36:09.167091
+Manager Data Engineering,Bajaj Financial Securities,Pune,False,,,4.0,9.0,naukri,2026-03-27 17:36:09.181009
+Manager - Information Technology Data Engineering,Bajaj Financial Securities,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:09.187984
+Technology Delivery Manager - Data Engineering,ZS Associates (India) Pvt Ltd,Pune,False,,,10.0,15.0,naukri,2026-03-27 17:36:09.201876
+Dea - Core - Cloud Data Engineer,Zensar,Pune,False,,,14.0,19.0,naukri,2026-03-27 17:36:09.209392
+Gcp Data Engineer,Moxieit Digital,Hyderabad,False,,,6.0,11.0,naukri,2026-03-27 17:36:09.223266
+Gcp Cloud Data Engineer,Logic Planet,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:09.237355
+Cloud Data Engineer,Brighttier Inc,Bangalore,False,,,12.0,15.0,naukri,2026-03-27 17:36:09.251377
+Cloud Data Engineer,Brighttier Inc,Bangalore,False,,,7.0,10.0,naukri,2026-03-27 17:36:09.266039
+Cloud Data Engineer,AMK Group,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:09.279785
+Gcp Data Engineer,Talent Track Services,Bangalore,False,9.0,19.0,4.0,9.0,naukri,2026-03-27 17:36:09.294328
+Gcp Data Engineer Hybrid,US MNC (analytics),Bangalore,False,25.0,35.0,5.0,10.0,naukri,2026-03-27 17:36:09.308897
+Data Engineering Manager,Ecolab Global Services,Pune,False,,,8.0,13.0,naukri,2026-03-27 17:36:09.322911
+Cloud Data Engineer,Barclays,Pune,False,,,2.0,6.0,naukri,2026-03-27 17:36:09.329996
+Ifc - Cloud Data Engineer,Barclays,Pune,False,,,2.0,6.0,naukri,2026-03-27 17:36:09.337479
+Product Company Onix Datamatica Is Hiring Gcp Data Engineers,Datametica,Hyderabad,False,,,3.0,5.0,naukri,2026-03-27 17:36:09.344703
+Manager Data Engineering,Crowdstrike,Pune,False,,,4.0,9.0,naukri,2026-03-27 17:36:09.358500
+Manager Data Architect Engineering,Deloitte Consulting,Pune,False,,,4.0,9.0,naukri,2026-03-27 17:36:09.372760
+Tt - Ead-Admm - Senior Consultant Gcp Data Engineer,Deloitte Consulting,Pune,False,,,3.0,6.0,naukri,2026-03-27 17:36:09.379487
+Gcp Data Engineer,Tech Mahindra,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:09.393498
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:09.407204
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,15.0,25.0,5.0,10.0,naukri,2026-03-27 17:36:09.421284
+Gcp Data Engineer,SIMPLE LOGIC IT Pvt Ltd,Mumbai,False,,,4.0,6.0,naukri,2026-03-27 17:36:09.435267
+Engineering Manager Big Data,Adform,Mumbai,False,,,10.0,20.0,naukri,2026-03-27 17:36:09.449608
+Director Principal Engineer Ai And Data Engineering,Pfizer,Mumbai,False,,,10.0,15.0,naukri,2026-03-27 17:36:09.464007
+Dt Manager Data Engineering,General Mills,Mumbai,False,,,15.0,22.0,naukri,2026-03-27 17:36:09.471284
+Data Engineering Manager,Top MNC Company,Bangalore,False,18.0,30.0,10.0,14.0,naukri,2026-03-27 17:36:09.478612
+Development Manager Data Engineering,Priceline,Mumbai,False,,,4.0,8.0,naukri,2026-03-27 17:36:09.485948
+Data Engineering Manager,The Collinson Group Limited,Mumbai,False,,,5.0,10.0,naukri,2026-03-27 17:36:09.493277
+Director Data Engineering,The Edge Partnership,Mumbai,False,,,18.0,24.0,naukri,2026-03-27 17:36:09.500132
+Director Data Engineering,The Edge Partnership,Mumbai,False,,,18.0,24.0,naukri,2026-03-27 17:36:09.507253
+Manager Data Engineering Analysis,Utkarsh Placement,Mumbai,False,,,5.0,10.0,naukri,2026-03-27 17:36:09.520347
+Cloud Data Engineer - Blr,Photon,Bangalore,False,,,6.0,9.0,naukri,2026-03-27 17:36:09.540323
+Gcp Data Engineer - 24Th Jan Sat - Virtual Interview,Tata Consultancy Services,Mumbai,False,,,5.0,9.0,naukri,2026-03-27 17:36:09.547421
+Associate Director Data Engineering,S&P Global Market Intelligence,Mumbai,False,,,12.0,16.0,naukri,2026-03-27 17:36:09.561563
+Cloud Data Qa Engineer,Go Digital Technology Consulting,Pune,False,,,4.0,7.0,naukri,2026-03-27 17:36:09.568731
+Gcp Data Engineer,Arahas Technologies,Bangalore,False,,,7.0,15.0,naukri,2026-03-27 17:36:09.583336
+Gcp Data Engineer / Architect,Virtualware Innovations,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:09.597467
+Gcp Data Engineer / Architect,Virtualware Innovations,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:09.611341
+Vp Gcp Data Engineer,Han Digital Solution,Pune,False,,,11.0,16.0,naukri,2026-03-27 17:36:09.625352
+Gcp Data Engineer,Unitrestech Solutions,Mumbai,False,,,3.0,6.0,naukri,2026-03-27 17:36:09.639511
+Data Engineering And Advanced Analytics Sr Manager,Hitachi Digital Services,Bangalore,False,,,7.0,11.0,naukri,2026-03-27 17:36:09.653409
+Senior Data Engineer Dataform Bigquery,Shrikrishiv Marketing Llp,Bangalore,False,30.0,40.0,6.0,11.0,naukri,2026-03-27 17:36:09.660265
+Big Data Engineer,CMM Level 5 IT Company,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:09.674610
+Senior Data Engineer,Persistent,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:09.681965
+Sr Data Engineer,Photon,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:09.696036
+Senior Data Engineer,PayU,Bangalore,False,,,3.0,4.0,naukri,2026-03-27 17:36:09.703292
+Sr Data Engineer,Photon,Bangalore,False,,,8.0,9.0,naukri,2026-03-27 17:36:09.716996
+Sr Developer - Data Engineering,Photon,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:09.731647
+Senior Data Engineer,S&P Global Market Intelligence,Mumbai,False,,,6.0,8.0,naukri,2026-03-27 17:36:09.745650
+Senior Data Engineer,Codefeast Enterprises,Bangalore,False,,,7.0,11.0,naukri,2026-03-27 17:36:09.759649
+Senior Data Engineer,Kotak Life Insurance,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:09.766920
+Senior Data Engineer Snowflake,Leading Client,Hyderabad,False,,,7.0,11.0,naukri,2026-03-27 17:36:09.781294
+Lead Data Engineer Integration Specialist,Hitachi Digital Services,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:09.796003
+Manager Vx Data Product Engineering,Pfizer,Mumbai,False,,,4.0,9.0,naukri,2026-03-27 17:36:09.803025
+Director Ai And Data Solution Engineering,Salesforce,Mumbai,False,,,12.0,17.0,naukri,2026-03-27 17:36:09.810405
+Director Ai And Data Solution Engineering,Salesforce,Mumbai,False,,,12.0,17.0,naukri,2026-03-27 17:36:09.817447
+Senior Data Engineer,AuxoAI,Bangalore,False,25.0,40.0,6.0,9.0,naukri,2026-03-27 17:36:09.825092
+Sr Data Engineer,Useready,Bangalore,False,,,3.0,5.0,naukri,2026-03-27 17:36:09.839302
+Sr Data Engineer,Useready,Bangalore,False,,,3.0,5.0,naukri,2026-03-27 17:36:09.846501
+Senior Data Engineer,EY,Mumbai,False,,,4.0,8.0,naukri,2026-03-27 17:36:09.853616
+Sr Data Engineer - Commercial,Mondelez,Mumbai,False,,,10.0,13.0,naukri,2026-03-27 17:36:09.868079
+Senior Data Engineer,CVM Solutions,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:09.875411
+Data Engineer/Senior Data Engineer- Azure Digiops,Fractal Analytics,Mumbai,False,,,2.0,5.0,naukri,2026-03-27 17:36:09.882568
+Lead Data Engineer Avp,Hdfc Bank,Bangalore,False,,,11.0,14.0,naukri,2026-03-27 17:36:09.897212
+Consultant / Sr Consultant - Data Engineer Indm,Blue Altair,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:09.911216
+Data Engineer -Snowflake Python - Hexaware Technologies,Hexaware Technologies,Bangalore,False,,,4.0,7.0,naukri,2026-03-27 17:36:09.925977
+Senior Data Engineer,Mastercard,Mumbai,False,,,6.0,11.0,naukri,2026-03-27 17:36:09.940280
+Senior Data Engineer - Data Mining Wrangling,Unicon Connectors,Mumbai,False,,,10.0,12.0,naukri,2026-03-27 17:36:09.947439
+Data Engineer-Data Platforms,IBM,Mumbai,False,,,4.0,6.0,naukri,2026-03-27 17:36:09.954928
+Data Engineer-Data Platforms,IBM,Mumbai,False,,,4.0,6.0,naukri,2026-03-27 17:36:09.962146
+Data Engineer-Data Platforms,IBM,Mumbai,False,,,4.0,6.0,naukri,2026-03-27 17:36:09.969794
+Assistant Manager - Data Engineering,LatentView,Chennai,False,,,6.0,9.0,naukri,2026-03-27 17:36:09.976846
+Assistant Manager - Data Engineering,LatentView,Chennai,False,,,7.0,10.0,naukri,2026-03-27 17:36:09.983850
+Assistant Manager - Data Engineering,LatentView,Chennai,False,,,8.0,10.0,naukri,2026-03-27 17:36:09.997642
+Senior Or Lead Data Engineer Gcp Immediate Joiner,C1X,Chennai,False,15.0,30.0,5.0,10.0,naukri,2026-03-27 17:36:10.005200
+Gcp Data Engineer Aarchitect,Teamlease Digital,Chennai,False,22.5,30.0,8.0,13.0,naukri,2026-03-27 17:36:10.019439
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.033339
+Associate Manager Data Engineering,DXC Technology,Chennai,False,,,11.0,16.0,naukri,2026-03-27 17:36:10.047191
+Cloud Data Engineer - Blr,Photon,Chennai,False,,,6.0,9.0,naukri,2026-03-27 17:36:10.054531
+Gcp Data Engineer,A client of Anlage,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:10.061796
+Manager - Data Engineering,LatentView,Chennai,False,,,9.0,15.0,naukri,2026-03-27 17:36:10.075710
+Manager - Data Engineering,LatentView,Chennai,False,,,9.0,15.0,naukri,2026-03-27 17:36:10.082915
+Assistant Manager - Data Engineering,LatentView,Chennai,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.090029
+Ts - Gcp Data Engineer,Srivango,Bangalore,False,19.0,34.0,6.0,10.0,naukri,2026-03-27 17:36:10.103087
+Data Engineering Manager,Forbes Advisor,Chennai,False,,,2.0,7.0,naukri,2026-03-27 17:36:10.122817
+Data Engineering Manager,Forbes Company Ltd,Chennai,False,,,2.0,7.0,naukri,2026-03-27 17:36:10.130296
+Informatica - Cloud Data Engineer,Prodapt Solutions,Chennai,False,,,6.0,11.0,naukri,2026-03-27 17:36:10.137679
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.144871
+Gcp Data Engineer,for one of the service based MNC,Bangalore,False,22.5,27.5,5.0,10.0,naukri,2026-03-27 17:36:10.159128
+Gcp Data Engineer,LTIMindtree,Bangalore,False,14.0,24.0,9.0,14.0,naukri,2026-03-27 17:36:10.173035
+Senior Gcp Data Engineer,Mindera,Chennai,False,,,6.0,11.0,naukri,2026-03-27 17:36:10.187065
+Senior Data Engineer Gcp Bigquery Shell Scripting,UPS Supply Chain Solutions (UPS SCS),Chennai,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.200979
+Gcp Data Engineer,Artech,Bangalore,False,5.0,15.0,5.0,8.0,naukri,2026-03-27 17:36:10.215168
+Gcp Data Engineer - Mlse,Impetus Technologies,Chennai,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.235451
+Cloud Data Engineer - Blr,Photon,Chennai,False,,,10.0,15.0,naukri,2026-03-27 17:36:10.256046
+Gcp Data Engineer,Leading Client,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.270330
+Data Engineer-Gcp,Leading IT Service and Consulting Organization,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.284471
+Big Data Lead / Data Engineer,Hexaware Technologies,Bangalore,False,18.0,30.0,9.0,14.0,naukri,2026-03-27 17:36:10.299032
+Gcp Data Engineer- Mar 7Th Drive In Chennai/Bangalore/Hyd,IT Staffing company,Bangalore,False,15.0,30.0,5.0,10.0,naukri,2026-03-27 17:36:10.306505
+Gcp Bigquerygcp Data Engineer Etl,Techs To Suit,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.320512
+Gcp Data Engineer,Talent Track Services,Bangalore,False,8.0,18.0,4.0,9.0,naukri,2026-03-27 17:36:10.334838
+Etl Developer,Golden Hues Consultants,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:10.349614
+Etl Developer,Naukri Expert Assist,Bangalore,False,,,5.0,9.0,naukri,2026-03-27 17:36:10.364075
+Etl Developer,Luxoft,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:10.377819
+Etl Developer,Travtech Software,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:10.391853
+Etl Developer,People Prime Worldwide,Bangalore,False,,,6.0,9.0,naukri,2026-03-27 17:36:10.406692
+Snaplogic Etl Developer,Han Digital Solution,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:10.420925
+Etl Developer,MNC IT Service Company,Bangalore,False,15.0,18.0,8.0,13.0,naukri,2026-03-27 17:36:10.434943
+Etl Developer,Quess Corp,Bangalore,False,,,7.0,10.0,naukri,2026-03-27 17:36:10.448909
+Etl Developer,DXC Technology,Bangalore,False,,,2.0,5.0,naukri,2026-03-27 17:36:10.462926
+Etl Developer,Careernet,Remote,True,,,5.0,8.0,naukri,2026-03-27 17:36:10.477175
+Etl Developer,Logic Planet,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.491840
+Etl Developer And Etl Testing,mspring infotech,Bangalore,False,,,2.0,7.0,naukri,2026-03-27 17:36:10.506217
+Etl Developer With Pyspark,Logic Planet,Bangalore,False,,,0.0,5.0,naukri,2026-03-27 17:36:10.519969
+Etl Developer With Pyspark,Logic Planet,Bangalore,False,,,0.0,5.0,naukri,2026-03-27 17:36:10.533866
+Data Engineer Etl Developer,Logic Planet,Bangalore,False,,,2.0,4.0,naukri,2026-03-27 17:36:10.548278
+Data Engineer Etl Developer,Logic Planet,Bangalore,False,,,2.0,3.0,naukri,2026-03-27 17:36:10.562267
+Etl Developer,Squircle IT,Bangalore,False,,,4.0,7.0,naukri,2026-03-27 17:36:10.576285
+Mdm And Etl Developer,Squircle IT,Bangalore,False,,,5.0,7.0,naukri,2026-03-27 17:36:10.590839
+Etl Developer,Squircle IT,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:10.605019
+Etl Developer,Squircle IT,Bangalore,False,,,4.0,6.0,naukri,2026-03-27 17:36:10.618901
+Etl Developer,Guidewire Software,Bangalore,False,,,3.0,5.0,naukri,2026-03-27 17:36:10.633166
+Etl Developer,Naghavi Fintech,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:10.647111
+Etl Developer,Clifyx Technology,Bangalore,False,,,2.0,5.0,naukri,2026-03-27 17:36:10.661353
+Etl Developer,Hireflex247,Bangalore,False,,,4.0,7.0,naukri,2026-03-27 17:36:10.675199
+Etl Developer -,Sentel Software,Bangalore,False,,,2.0,5.0,naukri,2026-03-27 17:36:10.689405
+Etl Developer,SE Mentor,Bangalore,False,,,4.0,5.0,naukri,2026-03-27 17:36:10.703175
+Etl Developer,Vhire4u,Bangalore,False,,,8.0,12.0,naukri,2026-03-27 17:36:10.716825
+Etl Developer,Gforce Consulting Solutions,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.731175
+Etl Developer,Clifyx Technology,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.756525
+Etl Developer,E4 Softwares,Bangalore,False,,,1.0,4.0,naukri,2026-03-27 17:36:10.770576
+Etl Developer,Leading Client,Bangalore,False,,,6.0,11.0,naukri,2026-03-27 17:36:10.784505
+Etl Developer,Moprens Solutions,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.798364
+Aws Etl Developer,Quess Corp,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:10.812419
+Senior Etl Developer,BCE Global Technology Centre,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:10.827079
+Informatica Iics Etl Developer / Mdm Developer,Sunware Technologies,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:10.841417
+Etl Developer Informatica,Logic Planet,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.855420
+Senior Etl Developer,Photon,Bangalore,False,,,5.0,7.0,naukri,2026-03-27 17:36:10.869335
+Senior Etl Developer Talend,Clifyx Technology,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.883496
+Senior Sql Server Etl Developer,Stack Digital,Bangalore,False,,,8.0,10.0,naukri,2026-03-27 17:36:10.897060
+Senior Etl Developer,Naukri Expert Assist,Bangalore,False,10.0,18.0,6.0,11.0,naukri,2026-03-27 17:36:10.911117
+Senior Etl Developer,Data Economy,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:10.925364
+Senior Etl Developer With Dut Tool Exp,Guidewire Software,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.939289
+Senior Etl Developer,Guidewire Software,Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:10.953349
+Senior Etl Developer,Blitzenx,Bangalore,False,,,4.0,7.0,naukri,2026-03-27 17:36:10.967370
+Etl Informatica Developer,Sonata Software,Bangalore,False,,,8.0,13.0,naukri,2026-03-27 17:36:11.039644
+Etl Developer - Ibm Datastage,Gainwell Technologies,Remote,True,,,10.0,20.0,naukri,2026-03-27 17:36:11.054565
+Etl Developer Abinitio,American Express Global Business Travel,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:11.079677
+Etl Database Developer Informatica / Greenplum / Cloud,Broadridge,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:11.183861
+Talend Etl Developer,Apptad,Bangalore,False,,,3.0,6.0,naukri,2026-03-27 17:36:11.306627
+Etl Developertalend,Conneqt,Bangalore,False,,,3.0,6.0,naukri,2026-03-27 17:36:11.346181
+Sql Server Etl Developer,Stack Digital,Bangalore,False,,,3.0,7.0,naukri,2026-03-27 17:36:11.387310
+Lead Engineer-Oracle Etl Developer,Nest Digital,Bangalore,False,,,8.0,12.0,naukri,2026-03-27 17:36:11.427590
+Lead Etl Developer,Ocwen Financial Corporation,Remote,True,,,5.0,7.0,naukri,2026-03-27 17:36:11.511087
+Sql/Etl Developer,Moder Solutions,Bangalore,False,,,8.0,13.0,naukri,2026-03-27 17:36:11.552095
+Java Etl Developer,Rarr Technologies,Bangalore,False,,,3.0,5.0,naukri,2026-03-27 17:36:11.617318
+Lead Etl Developer,Pegasus Knowledge Solutions (PKSI),Bangalore,False,,,8.0,10.0,naukri,2026-03-27 17:36:11.631731
+Sql-Etl Developer,Clifyx Technology,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:11.645961
+Developer - Data Migration Etl,Careernet,Bangalore,False,,,4.0,7.0,naukri,2026-03-27 17:36:11.659775
+Etl With Datastage Developer,CGI,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:11.673646
+Senior Sql Developer Ssis / Etl,Ekloud Data Labs,Remote,True,,,7.0,10.0,naukri,2026-03-27 17:36:11.693398
+Etl Developer,Zensar,Hyderabad,False,,,6.0,11.0,naukri,2026-03-27 17:36:11.713608
+Etl Developer,Apptad,Hyderabad,False,,,7.0,12.0,naukri,2026-03-27 17:36:11.728053
+Etl Developer Iics Snowflake,Leading Client,Hyderabad,False,,,4.0,9.0,naukri,2026-03-27 17:36:11.742041
+Etl Developer,Virtusa,Hyderabad,False,,,5.0,10.0,naukri,2026-03-27 17:36:11.755959
+Etl Developer / Data Engineer,Vertex Computer Systems,Hyderabad,False,,,5.0,10.0,naukri,2026-03-27 17:36:11.769740
+Etl Developer,Compunnel,Hyderabad,False,,,9.0,14.0,naukri,2026-03-27 17:36:11.784159
+Etl Developer,Virtusa,Hyderabad,False,,,10.0,15.0,naukri,2026-03-27 17:36:11.797998
+Etl Developer,Virtusa,Hyderabad,False,,,5.0,10.0,naukri,2026-03-27 17:36:11.812172
+Etl Developer,Squircle IT,Hyderabad,False,,,2.0,7.0,naukri,2026-03-27 17:36:11.826205
+Etl Developer,Cloudxtreme,Hyderabad,False,,,5.0,6.0,naukri,2026-03-27 17:36:11.840224
+Etl Developer,Cloudxtreme,Hyderabad,False,,,5.0,9.0,naukri,2026-03-27 17:36:11.854364
+Etl Developer,My Compliance Office,Hyderabad,False,,,10.0,15.0,naukri,2026-03-27 17:36:11.868240
+Etl Developer,Cloudxtreme,Hyderabad,False,16.0,27.5,5.0,6.0,naukri,2026-03-27 17:36:11.882242
+Etl Developer,Augmatrixgo,Hyderabad,False,,,4.0,6.0,naukri,2026-03-27 17:36:11.896252
+Etl Developer,Diverse Lynx,Hyderabad,False,,,2.0,6.0,naukri,2026-03-27 17:36:11.912196
+Etl Developer,Ecorp Trainings,Hyderabad,False,,,6.0,10.0,naukri,2026-03-27 17:36:11.927208
+Etl Developer,SAS Research and Developement (India) Pvt Ltd,Pune,False,,,2.0,5.0,naukri,2026-03-27 17:36:11.941343
+Etl Developer,SAS Institute of Management,Pune,False,,,2.0,6.0,naukri,2026-03-27 17:36:11.961907
+Data Analyst Etl Developer,Copeland,Pune,False,,,4.0,5.0,naukri,2026-03-27 17:36:11.981768
+Hcl Unica Product_Lead Python Developer Ai/Ml/Etl_Pune/Mumbai,HCLTech,Pune,False,18.0,25.0,6.0,11.0,naukri,2026-03-27 17:36:11.996860
+Ifc - Etl Developer,Barclays,Pune,False,,,1.0,7.0,naukri,2026-03-27 17:36:12.011128
+Etl Developer,Brid Tech Solutions,Pune,False,,,7.0,12.0,naukri,2026-03-27 17:36:12.025081
+Etl Developer,Diverse Lynx,Pune,False,,,2.0,6.0,naukri,2026-03-27 17:36:12.039938
+Etl Developer,KPI Partners,Pune,False,,,6.0,12.0,naukri,2026-03-27 17:36:12.054023
+Etl Developer,Stark Industries,Pune,False,,,1.0,5.0,naukri,2026-03-27 17:36:12.068288
+Ifc - Etl Developer,Barclays,Pune,False,,,1.0,7.0,naukri,2026-03-27 17:36:12.081822
+Ifc - Etl Developer-Ba4,Barclays,Pune,False,,,1.0,7.0,naukri,2026-03-27 17:36:12.095881
+Etl Developer,Diverse Lynx,Pune,False,,,2.0,6.0,naukri,2026-03-27 17:36:12.109990
+Etl Developer,Lumenore,Pune,False,,,2.0,6.0,naukri,2026-03-27 17:36:12.124036
+Etl Developer,Diverse Lynx,Pune,False,,,4.0,7.0,naukri,2026-03-27 17:36:12.137808
+Etl Developer,Leading Client,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:12.151704
+Etl Developer,MNC - ETL Developer - Pune,Pune,False,13.0,20.0,6.0,9.0,naukri,2026-03-27 17:36:12.166207
+Etl Developer Informatica,Techknomatic,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:12.180219
+Senior Etl Developer,Optima Solutions,Pune,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.194178
+Etl Developer / Senior Developer - Datastage Cp4D,IntraEdge Technology,Pune,False,,,4.0,8.0,naukri,2026-03-27 17:36:12.208135
+Tableau Sql Etl Developer,Barclays,Pune,False,,,3.0,6.0,naukri,2026-03-27 17:36:12.222255
+Etl Developer Talend,Techknomatic,Pune,False,,,2.0,7.0,naukri,2026-03-27 17:36:12.236627
+Opening For Java Developer/Ui Developer/Net/Mainframes/Etl Developer,ILABZ TECHNOLOGY LLP,Pune,False,4.0,9.0,2.0,6.0,naukri,2026-03-27 17:36:12.250464
+Java Etl Developer,Tudip Technologies,Pune,False,,,1.0,6.0,naukri,2026-03-27 17:36:12.264921
+Tableau Etl Developer,Logic Planet,Pune,False,,,4.0,6.0,naukri,2026-03-27 17:36:12.279459
+Senior Developer Data Engineer Etl,Barclays,Pune,False,,,3.0,6.0,naukri,2026-03-27 17:36:12.293702
+Etl Datastage Developer,Elintex Technologies,Pune,False,,,6.0,11.0,naukri,2026-03-27 17:36:12.308176
+Sql Developer Azure Synapse Etl Microsoft Fabric,Samarpak Management Solutions,Pune,False,4.0,6.0,2.0,3.0,naukri,2026-03-27 17:36:12.334183
+Oracle Fusion Cloud -Application Developer Data / Etl,Sahra Al Aman Information Technology,Hyderabad,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.348910
+Iics Developer5-10 Years-Pan India,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.363045
+Palantir Developer5-10 Years-H,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.370202
+Axiom Developer,Capgemini,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:12.377417
+Palantir Developer5-10 Years-Women Hiring Drive,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.384651
+Informatica Developer With Teradata_Walkin,Tata Consultancy Services,Bangalore,False,20.0,35.0,5.0,10.0,naukri,2026-03-27 17:36:12.391963
+Hiring For Java Etl Lead Strong Sql - Only Immediate Candidates,Iris Software,Pune,False,,,8.0,10.0,naukri,2026-03-27 17:36:12.399555
+Senior Informatica Developer,Beinex,Bangalore,False,,,3.0,8.0,naukri,2026-03-27 17:36:12.413768
+Opening For Talend Developer Pan India,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.420953
+Informatica Developer,Tata Consultancy Services,Pune,False,,,6.0,8.0,naukri,2026-03-27 17:36:12.428295
+Application Developer-Cloud Fullstack,IBM,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.435394
+Dbt Etl Lead,ITC Infotech,Bangalore,False,18.0,33.0,7.0,12.0,naukri,2026-03-27 17:36:12.449918
+Talend Developer- B,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.463947
+Opening For Talend Developer- B,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.471159
+Data Engineer Etl Go Databricks,Instinctools,Bangalore,False,,,2.0,6.0,naukri,2026-03-27 17:36:12.478400
+Informatica Iics Developer,Capgemini,Hyderabad,False,,,4.0,9.0,naukri,2026-03-27 17:36:12.492893
+Application Developer-Microsoft Net Stack,IBM,Bangalore,False,,,7.0,12.0,naukri,2026-03-27 17:36:12.499856
+Informatica Developer,Tata Consultancy Services,Pune,False,,,4.0,9.0,naukri,2026-03-27 17:36:12.513816
+Application Developer,Accenture,Pune,False,,,2.0,5.0,naukri,2026-03-27 17:36:12.520998
+Application Developer,Accenture,Pune,False,,,12.0,15.0,naukri,2026-03-27 17:36:12.528232
+Java Full Stack Developer _ Senior Application Developer,Fujitsu,Pune,False,,,5.0,9.0,naukri,2026-03-27 17:36:12.535493
+Opening For Talend Developer Pan India,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.549573
+Talend Developer 5-10 Years,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.556867
+Azure Logic Apps Paas- Senior Application Developer,Fujitsu,Pune,False,,,4.0,7.0,naukri,2026-03-27 17:36:12.563984
+Sr Application Developer,Birlasoft,Pune,False,,,3.0,8.0,naukri,2026-03-27 17:36:12.589451
+Scouting For Ab Inito Developer Pune,Anlage Infotech,Pune,False,,,4.0,9.0,naukri,2026-03-27 17:36:12.603541
+Data Etl Engineer,IDT Corporation,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.610705
+Informatica Developer,Tata Consultancy Services,Hyderabad,False,,,6.0,11.0,naukri,2026-03-27 17:36:12.624672
+Net React Application Developer,Capgemini,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.632083
+Application Developer,Accenture,Pune,False,,,2.0,5.0,naukri,2026-03-27 17:36:12.639582
+Application Developer,Accenture,Pune,False,,,5.0,10.0,naukri,2026-03-27 17:36:12.646624
+Etl Developer,Grid Dynamics,Mumbai,False,,,4.0,6.0,naukri,2026-03-27 17:36:12.653782
+Mid-Level Odi Etl Developers,USA Infotech Advisors,Mumbai,False,,,3.0,4.0,naukri,2026-03-27 17:36:12.667792
+Business Analyst - Etl Developer,Gebbs Healthcare Solutions,Mumbai,False,,,1.0,5.0,naukri,2026-03-27 17:36:12.681871
+Etl Developer,Predoole Analytics,Mumbai,False,,,2.0,6.0,naukri,2026-03-27 17:36:12.696142
+Etl Developer,Pegasus Knowledge Solutions (PKSI),Mumbai,False,,,6.0,11.0,naukri,2026-03-27 17:36:12.710209
+Critical Demand Ll Etl Sr Developer/Lead,Triangle Global,Mumbai,False,,,7.0,12.0,naukri,2026-03-27 17:36:12.724456
+Sql Python Etl Developer - Mumbai,Big Four,Mumbai,False,8.5,16.0,4.0,8.0,naukri,2026-03-27 17:36:12.738672
+Business Analyst Etl Developer,Gebbs Healthcare Solutions,Mumbai,False,,,1.0,6.0,naukri,2026-03-27 17:36:12.752870
+Etl Developer,Logic Planet,Mumbai,False,,,3.0,6.0,naukri,2026-03-27 17:36:12.778900
+Data Science / Data Engineering / Etl Developer,Nauticalinfo Solutions,Mumbai,False,,,2.0,8.0,naukri,2026-03-27 17:36:12.792800
+Python Developer Sql Rest Api Etl - Virtual Interview - 31 Dec,Tata Consultancy Services,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:12.806835
+Sql Developer / Data Engineer Power Bi Etl Data Warehousing,Talent Corner HR Services,Mumbai,False,12.0,15.0,3.0,7.0,naukri,2026-03-27 17:36:12.821552
+Etl Informatica Developer,Squircle IT,Mumbai,False,,,6.0,10.0,naukri,2026-03-27 17:36:12.835971
+Hiring Etl Datastage Developer With Datamatics - Mumbai/Bangalore,Datamatics,Bangalore,False,15.0,20.0,5.0,10.0,naukri,2026-03-27 17:36:12.849519
+Report Developer Power Bi Sql Data Extraction Etl,Paramatrix Technologies,Mumbai,False,,,3.0,6.0,naukri,2026-03-27 17:36:12.863234
+Ofsaa Developer,Capgemini,Bangalore,False,,,4.0,7.0,naukri,2026-03-27 17:36:12.877969
+Senior Informatica Developer,AuxoAI,Bangalore,False,25.0,35.0,7.0,12.0,naukri,2026-03-27 17:36:12.885053
+Ofsaa Developer,Capgemini,Mumbai,False,,,6.0,9.0,naukri,2026-03-27 17:36:12.892322
+Data Engineer / Bi Developer,KPMG Assurance and Consulting Services LLP,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:12.899419
+Celonis Developer,Evnek,Bangalore,False,,,2.0,6.0,naukri,2026-03-27 17:36:12.913601
+Informatica Developer,Tata Consultancy Services,Mumbai,False,,,5.0,8.0,naukri,2026-03-27 17:36:12.921144
+Informatica Developer For Mumbai Powai,Tata Consultancy Services,Mumbai,False,,,4.0,8.0,naukri,2026-03-27 17:36:12.935017
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-27 17:36:12.948701
+Pim Developer Informatica Mdm,Logic Planet,Bangalore,False,,,6.0,8.0,naukri,2026-03-27 17:36:12.955927
+Informatica Pc Developer,Logic Planet,Bangalore,False,,,5.0,15.0,naukri,2026-03-27 17:36:12.963290
+Informatica Developer,Silverlink Technologies,Pune,False,,,6.0,9.0,naukri,2026-03-27 17:36:12.970619
+Regular Xceptor Developer,Luxoft,Mumbai,False,,,4.0,9.0,naukri,2026-03-27 17:36:12.977776
+Sql Developer / Data Engineer / Data Analyst,Aspiration,Mumbai,False,,,3.0,7.0,naukri,2026-03-27 17:36:12.984894
+Informatica Developer,Crisil,Mumbai,False,,,4.0,6.0,naukri,2026-03-27 17:36:12.998496
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.012875
+Application Developer-Sap Abap Hana,IBM,Mumbai,False,,,6.0,7.0,naukri,2026-03-27 17:36:13.020272
+Application Developer-Devops,IBM,Mumbai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.027387
+Application Developer-Zos,IBM,Mumbai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.034507
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.041711
+Application Developer-Ibm Integration,IBM,Mumbai,False,,,3.0,5.0,naukri,2026-03-27 17:36:13.048833
+Application Developer-Reactjs,IBM,Mumbai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.056215
+Application Developer-Ibm Integration,IBM,Mumbai,False,,,3.0,5.0,naukri,2026-03-27 17:36:13.063772
+Application Developer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-27 17:36:13.071335
+Application Developer-Reactjs,IBM,Mumbai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.078495
+Application Developer-Reactjs,IBM,Mumbai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.085637
+Application Developer-Zos,IBM,Mumbai,False,,,6.0,8.0,naukri,2026-03-27 17:36:13.092587
+Net Application Developer,Capgemini,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:13.099774
+Senior Application Developer - Java,UPS Supply Chain Solutions (UPS SCS),Bangalore,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.107134
+Senior Application Developer,UPS Supply Chain Solutions (UPS SCS),Bangalore,False,,,7.0,10.0,naukri,2026-03-27 17:36:13.121160
+Senior Application Developer - Java Full Stack,UPS Supply Chain Solutions (UPS SCS),Bangalore,False,,,7.0,10.0,naukri,2026-03-27 17:36:13.128357
+Senior Application Developer,Owens & Minor,Bangalore,False,,,2.0,7.0,naukri,2026-03-27 17:36:13.142589
+Senior Application Developer - Net Full Stack,UPS Supply Chain Solutions (UPS SCS),Bangalore,False,,,5.0,9.0,naukri,2026-03-27 17:36:13.155714
+Senior Applications Developer - Azure Data Factory And Sql,UPS Supply Chain Solutions (UPS SCS),Bangalore,False,,,8.0,10.0,naukri,2026-03-27 17:36:13.169302
+Sap Fiori Ui5 Developer,Capgemini,Bangalore,False,,,5.0,9.0,naukri,2026-03-27 17:36:13.183415
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-27 17:36:13.190441
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.197605
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-27 17:36:13.205094
+Etl Developer,Tata Consultancy Services,Chennai,False,,,6.0,11.0,naukri,2026-03-27 17:36:13.212382
+Etl Developer _ Chennai Wfo,Tata Communications,Chennai,False,7.5,11.0,2.0,5.0,naukri,2026-03-27 17:36:13.226332
+Datawarehouse And Etl Developer,Devoir Software Solutions,Remote,True,10.0,16.0,5.0,7.0,naukri,2026-03-27 17:36:13.240337
+Etl Developer,Tanla Platforms,Chennai,False,,,2.0,5.0,naukri,2026-03-27 17:36:13.255028
+Etl Developer,Revol Process Solutions,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.275260
+Etl Developer,Diverse Lynx,Chennai,False,,,2.0,6.0,naukri,2026-03-27 17:36:13.294855
+Etl Developer,Avotima,Chennai,False,,,4.0,5.0,naukri,2026-03-27 17:36:13.309016
+Informatica Etl Developer,Diverse Lynx,Chennai,False,,,2.0,7.0,naukri,2026-03-27 17:36:13.323161
+Informatica Etl Developer,Diverse Lynx,Chennai,False,,,2.0,4.0,naukri,2026-03-27 17:36:13.337213
+Lead Software Engineer Etl Developer,D-TechWorks Pvt Ltd,Chennai,False,15.0,18.0,6.0,9.0,naukri,2026-03-27 17:36:13.351461
+Ibm Datastage Developer Etl Sql Unix 5 To 10 Years,Pi Square Technologies,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:13.365210
+Power Bi Developer - Python Etl,Sagous,Chennai,False,,,3.0,10.0,naukri,2026-03-27 17:36:13.379602
+Informatica Developer- B,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:13.394287
+Informatica Developer,Tata Consultancy Services,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:13.401441
+Informatica Developer,Tata Consultancy Services,Bangalore,False,,,4.0,9.0,naukri,2026-03-27 17:36:13.408480
+Dbt Developer,Tata Consultancy Services(TCS),Bangalore,False,15.0,18.0,6.0,8.0,naukri,2026-03-27 17:36:13.422424
+Informatica Powercenter Developer,Tata Consultancy Services,Bangalore,False,,,4.0,8.0,naukri,2026-03-27 17:36:13.436639
+Talend Developer- B,Infosys,Bangalore,False,,,5.0,9.0,naukri,2026-03-27 17:36:13.444037
+Talend Developer 5-10 Years-Women Hiring Drive,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:13.451233
+Net Application Developer,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:13.458643
+Informatica Developer,Tata Consultancy Services,Chennai,False,,,4.0,9.0,naukri,2026-03-27 17:36:13.465798
+Application Developer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:13.472917
+Mobile Application Developer,Infosys,Bangalore,False,5.0,13.0,5.0,10.0,naukri,2026-03-27 17:36:13.480249
+Talend Developer5-10 Years-H,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:13.487627
+Sr Software Engineer-Mobile Application Developer,Caterpillar Inc,Chennai,False,,,9.0,14.0,naukri,2026-03-27 17:36:13.495110
+Senior Application Developer With Groovy,Fujitsu,Bangalore,False,,,5.0,10.0,naukri,2026-03-27 17:36:13.502420
+Application Developer-Eai,IBM,Chennai,False,,,8.0,10.0,naukri,2026-03-27 17:36:13.509571
+Lead Application Developer,Capgemini,Bangalore,False,,,10.0,15.0,naukri,2026-03-27 17:36:13.516513
+Application Developer-Java Web Technologies,IBM,Chennai,False,,,6.0,8.0,naukri,2026-03-27 17:36:13.523629
+Application Developer-Servicenow,IBM,Chennai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.537658
+Application Developer-Servicenow,IBM,Chennai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.544607
+Application Developer-Java Web Technologies,IBM,Chennai,False,,,6.0,8.0,naukri,2026-03-27 17:36:13.551680
+Application Developer-Servicenow,IBM,Chennai,False,,,5.0,8.0,naukri,2026-03-27 17:36:13.565699
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.573146
+Application Developer,Accenture,Chennai,False,,,2.0,5.0,naukri,2026-03-27 17:36:13.580416
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.587926
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.595134
+Application Developer,Accenture,Chennai,False,,,2.0,5.0,naukri,2026-03-27 17:36:13.602177
+Application Developer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-27 17:36:13.608919
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.615993
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.623326
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.630655
+Application Developer,Accenture,Chennai,False,,,2.0,5.0,naukri,2026-03-27 17:36:13.638059
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-27 17:36:13.645176
+Application Developer-Eai,IBM,Chennai,False,,,6.0,8.0,naukri,2026-03-27 17:36:13.652212
+Application Developer-Java Web Technologies,IBM,Chennai,False,,,6.0,8.0,naukri,2026-03-27 17:36:13.659241
+Data Engineer,Amazon,Bangalore,False,,,1.0,6.0,naukri,2026-03-30 15:10:40.006109
+Data Engineer,Indium Software,Remote,True,16.0,18.0,2.0,5.0,naukri,2026-03-30 15:10:40.049758
+Data Engineer - Pyspark Sql,Barclays,Bangalore,False,,,1.0,7.0,naukri,2026-03-30 15:10:40.069783
+Data Engineer,Capgemini,Bangalore,False,,,4.0,9.0,naukri,2026-03-30 15:10:40.086915
+Data Engineer Databricks,Tata Consultancy Services,Bangalore,False,,,6.0,9.0,naukri,2026-03-30 15:10:40.096147
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:40.113586
+Data Engineer,Infosys,Bangalore,False,,,5.0,7.0,naukri,2026-03-30 15:10:40.122427
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,6.0,8.0,naukri,2026-03-30 15:10:40.137074
+Data Engineer,EXL,Bangalore,False,,,3.0,6.0,naukri,2026-03-30 15:10:40.159347
+Senior Consultant Data Engineering Engineering,Deloitte Consulting,Bangalore,False,,,3.0,6.0,naukri,2026-03-30 15:10:40.168830
+Tt Azure Data Engineer Manager,Deloitte Consulting,Bangalore,False,,,7.0,11.0,naukri,2026-03-30 15:10:40.177942
+Client Technology Data Engineer,EY,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:40.195677
+Data Engineer - Finance Technology,TE Connectivity,Bangalore,False,,,10.0,12.0,naukri,2026-03-30 15:10:40.205137
+Data Engineer Ww Ops Finance Sa,Amazon,Bangalore,False,,,3.0,8.0,naukri,2026-03-30 15:10:40.214417
+Data Engineer Ies Cfx Prime,Amazon,Bangalore,False,,,4.0,9.0,naukri,2026-03-30 15:10:40.223586
+Data Engineer,Alstom,Bangalore,False,,,5.0,7.0,naukri,2026-03-30 15:10:40.233211
+Data Engineer,Mercedes Benz,Bangalore,False,,,6.0,9.0,naukri,2026-03-30 15:10:40.242464
+Data Engineer-Databricks,IBM,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.252096
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-30 15:10:40.270200
+Data Engineer,Sorice Solutions,Bangalore,False,,,3.0,8.0,naukri,2026-03-30 15:10:40.287761
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-30 15:10:40.304064
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-30 15:10:40.319662
+Data Engineer 5-9 Year Apexon,Apexon,Bangalore,False,,,5.0,9.0,naukri,2026-03-30 15:10:40.328883
+Data Engineer,Accenture,Bangalore,False,,,6.0,8.0,naukri,2026-03-30 15:10:40.351883
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-30 15:10:40.384118
+Data Engineer,Swiss Re,Bangalore,False,,,1.0,4.0,naukri,2026-03-30 15:10:40.393796
+Data Engineer,Ennoventure Technologies,Bangalore,False,,,1.0,4.0,naukri,2026-03-30 15:10:40.418117
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-30 15:10:40.440497
+Data Engineer,Randomtrees,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.449361
+Data Engineer,Accenture,Bangalore,False,,,15.0,20.0,naukri,2026-03-30 15:10:40.465971
+Data Engineer,Wissen Technology,Bangalore,False,,,10.0,15.0,naukri,2026-03-30 15:10:40.474621
+Data Engineer,Seven N Consulting,Bangalore,False,,,1.0,2.0,naukri,2026-03-30 15:10:40.483822
+Data Engineer,SRKAY CONSULTING GROUP PRIVATE LIMITED,Bangalore,False,,,2.0,7.0,naukri,2026-03-30 15:10:40.492682
+Principle Data Engineer,Persolkelly India,Bangalore,False,,,12.0,18.0,naukri,2026-03-30 15:10:40.501521
+Data Engineer,Infosys,Bangalore,False,,,5.0,7.0,naukri,2026-03-30 15:10:40.510245
+Data Engineer,Ltimindtree,Hyderabad,False,20.0,30.0,12.0,16.0,naukri,2026-03-30 15:10:40.519086
+Data Engineer,EY,Hyderabad,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.536146
+Data Engineer- Tableau,Tiger Analytics,Bangalore,False,,,4.0,9.0,naukri,2026-03-30 15:10:40.554891
+Data Engineer,CGI,Hyderabad,False,8.0,16.0,6.0,9.0,naukri,2026-03-30 15:10:40.583840
+Senior Data Engineer- Data Modeling,Tiger Analytics,Bangalore,False,,,6.0,10.0,naukri,2026-03-30 15:10:40.612623
+Data Engineer,Amgen Inc,Hyderabad,False,,,1.0,4.0,naukri,2026-03-30 15:10:40.651806
+Data Engineer - Databricks,Tata Consultancy Services,Hyderabad,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.661297
+Data Engineer,Amazon,Hyderabad,False,,,3.0,8.0,naukri,2026-03-30 15:10:40.677678
+Data Engineer,Genpact,Hyderabad,False,,,7.0,10.0,naukri,2026-03-30 15:10:40.686134
+Data Engineer,Artech infosystem,Bangalore,False,15.0,17.0,6.0,10.0,naukri,2026-03-30 15:10:40.703179
+Data Engineer,Tata Consultancy Services,Hyderabad,False,,,10.0,15.0,naukri,2026-03-30 15:10:40.712252
+Data Engineer,Accenture,Hyderabad,False,,,15.0,20.0,naukri,2026-03-30 15:10:40.721223
+Data Engineer,Accenture,Bangalore,False,,,2.0,5.0,naukri,2026-03-30 15:10:40.730060
+Data Engineer,Accenture,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.739455
+Data Engineer,Accenture,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.748367
+Data Engineer,Accenture,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.757197
+Data Engineer,Barclaycard Payments,Pune,False,,,3.0,5.0,naukri,2026-03-30 15:10:40.766670
+Data Engineer,Barclays,Pune,False,,,1.0,7.0,naukri,2026-03-30 15:10:40.775852
+Senior Software Engineer - Data Engineer,ZS,Pune,False,,,4.0,6.0,naukri,2026-03-30 15:10:40.785154
+Data Engineer,CGI,Pune,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.794115
+Data Engineer,Iris Software,Pune,False,,,6.0,8.0,naukri,2026-03-30 15:10:40.803215
+Data Engineer,Zensar,Pune,False,,,1.0,7.0,naukri,2026-03-30 15:10:40.812170
+Data Engineer,Syngenta,Pune,False,,,4.0,9.0,naukri,2026-03-30 15:10:40.821414
+Data Engineer,Hexaware Technologies,Bangalore,False,5.0,14.0,6.0,10.0,naukri,2026-03-30 15:10:40.830256
+Data Engineer,Accenture,Bangalore,False,,,2.0,4.0,naukri,2026-03-30 15:10:40.846840
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,4.0,8.0,naukri,2026-03-30 15:10:40.855811
+Data Engineer,Tata Consultancy Services,Bangalore,False,,,4.0,8.0,naukri,2026-03-30 15:10:40.872064
+Fixed Income Data Engineer,MSCI Services,Pune,False,,,1.0,4.0,naukri,2026-03-30 15:10:40.881063
+Hiring For Aws Data Engineer - Senior,EY,Bangalore,False,,,4.0,7.0,naukri,2026-03-30 15:10:40.890167
+Sr Data Engineer Ml Knowledge,Mastercard,Pune,False,,,4.0,10.0,naukri,2026-03-30 15:10:40.906728
+Fixed Income Data Engineer,MSCI Services,Pune,False,,,2.0,3.0,naukri,2026-03-30 15:10:40.915697
+Lead Data Engineer,Mastercard,Pune,False,,,8.0,12.0,naukri,2026-03-30 15:10:40.924534
+Data Engineer 5- 8 Years Exp,Globallogic,Pune,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.933422
+Data Engineer,eClerx,Pune,False,,,4.0,9.0,naukri,2026-03-30 15:10:40.950014
+D_Technical Lead_ Data Engineer,Allianz,Pune,False,,,8.0,11.0,naukri,2026-03-30 15:10:40.958830
+Data Engineer,Tredence,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:40.967796
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:40.984492
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:40.993352
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.002426
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.011437
+Data Engineer - Generative Bi,Lloyds Technology Centre India,Hyderabad,False,,,4.0,7.0,naukri,2026-03-30 15:10:41.020266
+Data Engineer,Careernet,Hyderabad,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.029404
+Data Engineer,Barclays,Pune,False,,,1.0,6.0,naukri,2026-03-30 15:10:41.045993
+Data Engineer,TEKsystems,Pune,False,15.0,25.0,3.0,7.0,naukri,2026-03-30 15:10:41.062877
+Ai Backend Data Engineer,Bits In Glass,Pune,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.072070
+Data Engineer,SG Analytics,Bangalore,False,,,4.0,6.0,naukri,2026-03-30 15:10:41.080944
+Data Engineer,Mercer,Pune,False,,,4.0,7.0,naukri,2026-03-30 15:10:41.089956
+Data Engineer,wits inovation lab,Bangalore,False,,,3.0,8.0,naukri,2026-03-30 15:10:41.098880
+Data Engineer,Accenture,Pune,False,,,15.0,20.0,naukri,2026-03-30 15:10:41.121546
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.136433
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.145437
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.154477
+Data Engineer,Accenture,Pune,False,,,7.0,12.0,naukri,2026-03-30 15:10:41.163489
+Data Engineer,Black and white Business Solutions,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.179302
+Data Engineer,EY,Mumbai,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.200527
+Data Engineer,Tata Consultancy Services,Mumbai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.209287
+Data Engineer,MSCI Services,Mumbai,False,,,3.0,4.0,naukri,2026-03-30 15:10:41.226015
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.234897
+Hadoop Data Engineer,Synechron,Mumbai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.243920
+Data Engineer,MSCI Services,Mumbai,False,,,4.0,7.0,naukri,2026-03-30 15:10:41.260480
+Data Engineer,Accenture,Mumbai,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.269436
+Group Head -Data Engineering,Tata Power,Mumbai,False,,,7.0,10.0,naukri,2026-03-30 15:10:41.278184
+Azure Data Engineer,Capgemini,Bangalore,False,,,9.0,14.0,naukri,2026-03-30 15:10:41.294946
+Azure Data Engineer,Tata Consultancy Services,Bangalore,False,,,8.0,12.0,naukri,2026-03-30 15:10:41.312538
+Data Engineer,Accenture,Pune,False,,,12.0,14.0,naukri,2026-03-30 15:10:41.342451
+Data Engineer,Accenture,Pune,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.357065
+Opportunity For Data Engineering Professionals,Atos,Pune,False,,,6.0,10.0,naukri,2026-03-30 15:10:41.365832
+Data Engineer,Biz-metric India,Bangalore,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.382628
+Urgent Hiring Data Engineer Solix-Immediate-Pan India-Hybrid,G R Consultants,Bangalore,False,18.0,25.0,4.0,9.0,naukri,2026-03-30 15:10:41.391529
+Data Engineer,Incubit Global Business Services,Mumbai,False,,,6.0,8.0,naukri,2026-03-30 15:10:41.400408
+Data Engineer,ARP Investments,Bangalore,False,,,2.0,6.0,naukri,2026-03-30 15:10:41.409191
+Data Engineer,Open Insights,Bangalore,False,,,2.0,5.0,naukri,2026-03-30 15:10:41.418202
+Data Engineer,IMC,Mumbai,False,,,3.0,6.0,naukri,2026-03-30 15:10:41.434912
+Data Engineer,Leading Client,Hyderabad,False,,,4.0,9.0,naukri,2026-03-30 15:10:41.443632
+Data Engineer,Accenture,Hyderabad,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.452521
+Data Engineer - Ssis And Tableau,Tech Stalwart Solution,Bangalore,False,,,3.0,8.0,naukri,2026-03-30 15:10:41.461487
+Data Engineer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-30 15:10:41.478031
+Data Engineer,Criticalriver,Bangalore,False,,,6.0,9.0,naukri,2026-03-30 15:10:41.487328
+Data Engineer,Accenture,Pune,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.496295
+Data Engineer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-30 15:10:41.505337
+Data Engineer - Databricks/Pyspark - 12 Yrs - Ggn/Bang/Chennai - Imm,Bounteous x Accolite,Bangalore,False,,,12.0,18.0,naukri,2026-03-30 15:10:41.514416
+Data Engineer,Accenture,Chennai,False,,,7.0,10.0,naukri,2026-03-30 15:10:41.542516
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.551403
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.560309
+Data Engineer,Accenture,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:41.569285
+Data Engineer,Talentoj,Bangalore,False,,,5.0,9.0,naukri,2026-03-30 15:10:41.578184
+Data Engineer,Accenture,Pune,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.594685
+Consultant Aws Data Engineer Engineering,Deloitte Consulting,Chennai,False,,,2.0,5.0,naukri,2026-03-30 15:10:41.603642
+Coe Leader Graph Data Engineering,Tiger Analytics,Bangalore,False,,,12.0,17.0,naukri,2026-03-30 15:10:41.621041
+Hiring Python Data Engineer - Chennai / Bangalore Location,Tech Mahindra,Bangalore,False,,,4.0,9.0,naukri,2026-03-30 15:10:41.629806
+Data Engineer Midas Digital Acceleration,Amazon,Chennai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.646806
+Senior Full-Stack Aws Data Engineer,Cognizant,Bangalore,False,,,7.0,12.0,naukri,2026-03-30 15:10:41.663771
+Senior Software Engineer-Data Engineering,Caterpillar Inc,Bangalore,False,,,8.0,13.0,naukri,2026-03-30 15:10:41.680292
+Senior Data Engineer,Epam Systems,Chennai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.689051
+Senior Data Engineer,Nielseniq India,Chennai,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.697884
+Data Engineer,Shell Infotech,Chennai,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.706883
+Data Engineer,Valgen,Chennai,False,10.0,15.0,7.0,12.0,naukri,2026-03-30 15:10:41.715680
+Data Engineer,Accenture,Chennai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.724529
+Data Engineer - Solix,Sonata Software,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.733329
+Data Engineer,Tatpata,Bangalore,False,,,6.0,11.0,naukri,2026-03-30 15:10:41.742497
+Data Engineer,Saaki Argus And Averil Consulting,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.760124
+Big Data Engineer,Tata Consultancy Services,Bangalore,False,,,4.0,9.0,naukri,2026-03-30 15:10:41.775213
+Palantir -Pyspark Data Engineer,Tata Consultancy Services,Mumbai,False,,,6.0,9.0,naukri,2026-03-30 15:10:41.797849
+Data Engineer,Accenture,Mumbai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.807125
+Data Engineer,Accenture,Mumbai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.816266
+Data Engineer,Accenture,Mumbai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.825105
+Data Engineer,Accenture,Mumbai,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.834118
+Director Ai And Data Solution Engineering,Salesforce,Bangalore,False,,,12.0,17.0,naukri,2026-03-30 15:10:41.843122
+Director Applied Ai Ml Data Engineering,JPMorgan Chase Bank,Bangalore,False,,,5.0,6.0,naukri,2026-03-30 15:10:41.852187
+Director - Data Engineering - Agentic Ai,AMERICAN EXPRESS,Bangalore,False,,,10.0,15.0,naukri,2026-03-30 15:10:41.861975
+Azure Databricks Data Engineer/Developer,Infosys,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:41.871053
+Dea - Core - Cloud Data Engineer,Zensar,Bangalore,False,,,14.0,19.0,naukri,2026-03-30 15:10:41.887909
+Senior Manager Data Engineering,Anheuser Busch InBev,Bangalore,False,,,10.0,15.0,naukri,2026-03-30 15:10:41.904319
+Staff Data Engineer - Gcp,Equinix,Bangalore,False,,,4.0,8.0,naukri,2026-03-30 15:10:41.920610
+Manager Data Engineering,S&P Global Market Intelligence,Bangalore,False,,,7.0,12.0,naukri,2026-03-30 15:10:41.937161
+Senior Data Engineer -Gcp,Tredence,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:41.953737
+Software Engineer - Data Engineering/Generative Ai,Wells Fargo,Hyderabad,False,,,2.0,7.0,naukri,2026-03-30 15:10:41.970191
+Technical Lead-Data Engineer,EY,Hyderabad,False,,,8.0,13.0,naukri,2026-03-30 15:10:41.979155
+Cloud Data Engineer,Apple,Hyderabad,False,,,4.0,6.0,naukri,2026-03-30 15:10:41.988171
+Data Engineering - Senior Role / Engineering / Architech,Firstsource,Remote,True,40.0,60.0,10.0,20.0,naukri,2026-03-30 15:10:41.997068
+Coe Leader Graph Data Engineering,Tiger Analytics,Bangalore,False,,,12.0,17.0,naukri,2026-03-30 15:10:42.007692
+Senior Big Data Engineer,Qualcomm,Hyderabad,False,,,3.0,8.0,naukri,2026-03-30 15:10:42.016895
+Senior Data Engineer / Tech Lead,Tech Mahindra,Bangalore,False,,,7.0,12.0,naukri,2026-03-30 15:10:42.025899
+Senior Data Engineer,EY,Hyderabad,False,,,8.0,13.0,naukri,2026-03-30 15:10:42.034649
+Tcs Hiring Sr Azure Data Engineer For Chennai Hyderabad,Tata Consultancy Services,Hyderabad,False,,,7.0,9.0,naukri,2026-03-30 15:10:42.043550
+Senior Data Engineer,Epam Systems,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:42.060237
+Associate Director - Data Engineering,Amgen Inc,Hyderabad,False,,,14.0,20.0,naukri,2026-03-30 15:10:42.068955
+Data Engineering Manager,Invoice Cloud,Hyderabad,False,,,11.0,16.0,naukri,2026-03-30 15:10:42.085417
+Senior Manager - Data Platform Engineering,Pepsico,Hyderabad,False,,,5.0,8.0,naukri,2026-03-30 15:10:42.102033
+Manager Data Engineering,Amgen Inc,Hyderabad,False,,,8.0,13.0,naukri,2026-03-30 15:10:42.118897
+Mgr Data Engineering,Amgen Inc,Hyderabad,False,,,8.0,13.0,naukri,2026-03-30 15:10:42.128117
+Software Engineer- Data Engineer / Data Analyst,Siemens,Pune,False,,,2.0,4.0,naukri,2026-03-30 15:10:42.137148
+Data Engineer Bts Associate,ZS,Pune,False,,,0.0,3.0,naukri,2026-03-30 15:10:42.164382
+Project Manager -Data Engineering Data Visualization,Genpact,Hyderabad,False,,,8.0,13.0,naukri,2026-03-30 15:10:42.173388
+Azure Data Engineer,Globallogic,Bangalore,False,,,3.0,5.0,naukri,2026-03-30 15:10:42.182531
+Azure Data Engineer,BAJAJ FINSERVE,Pune,False,,,6.0,8.0,naukri,2026-03-30 15:10:42.199597
+Aws Data Engineer,Tata Consultancy Services,Bangalore,False,,,6.0,11.0,naukri,2026-03-30 15:10:42.216541
+Senior Data Engineer,Persistent,Pune,False,,,6.0,11.0,naukri,2026-03-30 15:10:42.233373
+Tt Ead Admm Associate Director Data Engineering,Deloitte Consulting,Bangalore,False,,,6.0,10.0,naukri,2026-03-30 15:10:42.242521
+Senior Cloud Engineer-Data Engineer,Srs Business Solutions India,Bangalore,False,8.0,15.0,5.0,10.0,naukri,2026-03-30 15:10:42.251575
+Senior Manager - Data Engineering,First Citizens India,Bangalore,False,,,15.0,20.0,naukri,2026-03-30 15:10:42.260609
+Gcp Data Engineer Opening With Capco-Bangalore/Hyderabad,Capco,Bangalore,False,,,7.0,12.0,naukri,2026-03-30 15:10:42.278330
+Manager Data Engineering De - Big Data Aws,Publicis Sapient,Bangalore,False,,,10.0,18.0,naukri,2026-03-30 15:10:42.294956
+Manager Data Engineering De - Big Data Azure,Publicis Sapient,Bangalore,False,,,10.0,18.0,naukri,2026-03-30 15:10:42.311433
+Senior Data Engineer - Gcp,Equinix,Bangalore,False,,,8.0,13.0,naukri,2026-03-30 15:10:42.328300
+Manager Data Engineer,Mastercard,Pune,False,,,8.0,15.0,naukri,2026-03-30 15:10:42.357456
+Gcp Data Ai Engineer As,Deutsche Bank,Pune,False,,,6.0,10.0,naukri,2026-03-30 15:10:42.366386
+Principal Data Engineer Data Technology,Hsbc,Pune,False,,,5.0,9.0,naukri,2026-03-30 15:10:42.383088
+Aws Data Engineer 5-10 Years-Women Hiring,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:42.391949
+Senior Specialist - Data Engineering,Ltimindtree,Pune,False,,,4.0,9.0,naukri,2026-03-30 15:10:42.408596
+Senior Data Engineer,Mastercard,Pune,False,,,4.0,8.0,naukri,2026-03-30 15:10:42.425733
+Specialist - Data Engineering,Ltimindtree,Pune,False,,,5.0,10.0,naukri,2026-03-30 15:10:42.434768
+Gcp Data Engineer,Quess Corp,Pune,False,,,4.0,6.0,naukri,2026-03-30 15:10:42.443784
+Data Engineer-Enterprise Content Management,IBM,Pune,False,,,2.0,5.0,naukri,2026-03-30 15:10:42.462006
+Cloud Data Qa Engineer,Go Digital Technology Consulting,Pune,False,,,4.0,7.0,naukri,2026-03-30 15:10:42.470976
+Senior Data Engineer -Gcp,Tredence,Pune,False,,,5.0,10.0,naukri,2026-03-30 15:10:42.488695
+Data Product Manager Data Engineering Data Science,LOreal,Mumbai,False,,,8.0,13.0,naukri,2026-03-30 15:10:42.505624
+Senior Data Engineer - Ai,FedEx,Mumbai,False,,,4.0,7.0,naukri,2026-03-30 15:10:42.514681
+Manager - Data Engineer Automation Business Intelligence,Kroll,Mumbai,False,,,8.0,13.0,naukri,2026-03-30 15:10:42.524117
+Microsoft Cloud Data Engineering Lead,Crisil,Mumbai,False,,,7.0,10.0,naukri,2026-03-30 15:10:42.538850
+Senior Data Engineer,UPS Supply Chain Solutions (UPS SCS),Bangalore,False,,,3.0,7.0,naukri,2026-03-30 15:10:42.554072
+Data Engineer,Accenture,Mumbai,False,,,7.0,12.0,naukri,2026-03-30 15:10:42.563556
+Data Engineer Hdfs / Spark/ Druid,Tata Consultancy Services,Mumbai,False,,,7.0,11.0,naukri,2026-03-30 15:10:42.572899
+Data Engineer,Crisil,Pune,False,,,3.0,7.0,naukri,2026-03-30 15:10:42.590231
+Senior Data Technology Engineer,Mondelez,Mumbai,False,,,6.0,11.0,naukri,2026-03-30 15:10:42.600779
+Python Developer For Data Engineering,MSCI Services,Mumbai,False,,,3.0,6.0,naukri,2026-03-30 15:10:42.610087
+Data Engineer - Senior Associate/Manager,Auxoai,Bangalore,False,,,3.0,6.0,naukri,2026-03-30 15:10:42.627736
+Coe Lead - Data Engineering Databricks Azure,Exponentia Team,Mumbai,False,,,10.0,15.0,naukri,2026-03-30 15:10:42.636965
+Senior Data Engineer,thinkbridge Software,Bangalore,False,,,5.0,7.0,naukri,2026-03-30 15:10:42.654070
+C2H Position For Gcp Data Engineer For Pan India Locations,JOBWORLD India.,Hyderabad,False,12.0,22.0,8.0,13.0,naukri,2026-03-30 15:10:42.671644
+Intern - Data Engineer,TP,Chennai,False,,,,,naukri,2026-03-30 15:10:42.700725
+Permanent Role For Aws Data Engineer,Deloitte Consulting,Bangalore,False,12.0,22.0,4.0,7.0,naukri,2026-03-30 15:10:42.709627
+Permanent Role For Aws Data Engineer,Deloitte Consulting,Bangalore,False,12.0,22.0,5.0,8.0,naukri,2026-03-30 15:10:42.726723
+Staff Data Engineer,Walmart,Chennai,False,,,10.0,15.0,naukri,2026-03-30 15:10:42.743876
+Data Engineer,Barclays,Chennai,False,,,1.0,7.0,naukri,2026-03-30 15:10:42.753837
+Principal Data Engineer,Walmart,Chennai,False,,,12.0,17.0,naukri,2026-03-30 15:10:42.770676
+Data Engineer,The World Bank,Chennai,False,,,7.0,12.0,naukri,2026-03-30 15:10:42.780088
+Sr Data Engineer,Walmart,Chennai,False,,,1.0,6.0,naukri,2026-03-30 15:10:42.797860
+Database Administrator/Data Engineer,Gartner for HR,Chennai,False,,,3.0,5.0,naukri,2026-03-30 15:10:42.807180
+Azure Data Engineer,Cognizant,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:42.816572
+Data Engineer,Beinex,Bangalore,False,,,2.0,4.0,naukri,2026-03-30 15:10:42.833474
+Gcp Data Engineer,Customerlabs,Chennai,False,,,2.0,3.0,naukri,2026-03-30 15:10:42.850073
+Data Engineering Architect/ Manager,Naveera It Consulting,Chennai,False,25.0,40.0,10.0,20.0,naukri,2026-03-30 15:10:42.866581
+Hiring Data Engineer - Associate Vice President / Principal Architect,Trinity Life Sciences,Bangalore,False,35.0,60.0,10.0,20.0,naukri,2026-03-30 15:10:42.875388
+Gcp Data Engineer,Tata Consultancy Services,Bangalore,False,10.0,20.0,5.0,10.0,naukri,2026-03-30 15:10:42.897305
+Manager Data Platform Engineering Nifisparkairflowjavapython,Mastercard,Pune,False,,,12.0,17.0,naukri,2026-03-30 15:10:42.917155
+Manager Software Engineering-Data Engineering/Data Analysis,Caterpillar Inc,Chennai,False,,,6.0,10.0,naukri,2026-03-30 15:10:42.935542
+Aws Data Engineer,Virtusa,Chennai,False,,,7.0,9.0,naukri,2026-03-30 15:10:42.945092
+Senior Data Engineer,Persistent,Bangalore,False,,,4.0,6.0,naukri,2026-03-30 15:10:42.969267
+Senior Engineer - Data Engineering,Altimetrik,Chennai,False,,,3.0,7.0,naukri,2026-03-30 15:10:42.980393
+Senior Engineer - Data Engineering,Altimetrik,Chennai,False,,,6.0,10.0,naukri,2026-03-30 15:10:43.010271
+Gcp Data Engineer,IntraEdge Technology,Chennai,False,,,6.0,10.0,naukri,2026-03-30 15:10:43.025244
+Gcp Data Engineer,Tata Consultancy Services(TCS),Chennai,False,14.0,18.0,8.0,10.0,naukri,2026-03-30 15:10:43.046456
+Permanent Role For Iics Developer Bangalore Location,Deloitte Consulting,Bangalore,False,13.0,22.5,4.0,9.0,naukri,2026-03-30 15:10:43.063422
+Data/Etl Engineer,Capgemini,Bangalore,False,,,4.0,8.0,naukri,2026-03-30 15:10:43.072255
+Informatica Mdm Developer,Infosys,Bangalore,False,,,5.0,7.0,naukri,2026-03-30 15:10:43.095126
+Opening For Talend Developer- B,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.109632
+Informatica Developer,Schneider Electric,Bangalore,False,,,5.0,7.0,naukri,2026-03-30 15:10:43.118563
+Ts - Etl Developer,IT Company,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.127416
+Aws Pyspark Data Engineer,Tata Consultancy Services,Bangalore,False,,,7.0,10.0,naukri,2026-03-30 15:10:43.144096
+Senior Data Engineer,Cybernetics Controls,Bangalore,False,,,0.0,2.0,naukri,2026-03-30 15:10:43.160528
+Senior Data Engineer Immediate Joiner Only,Daic Tech Solutions,Mumbai,False,10.0,16.9,8.0,13.0,naukri,2026-03-30 15:10:43.169600
+Senior Data Engineer,Go Digital Technology Consulting,Pune,False,,,4.0,7.0,naukri,2026-03-30 15:10:43.183835
+Senior Data Engineer,Net Connect,Mumbai,False,15.0,20.0,4.0,9.0,naukri,2026-03-30 15:10:43.198225
+Senior Data Engineer Aws,CareerFit.ai,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:43.207167
+Senior Data Engineer,Kloud9,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.223602
+Lead Consultant-Ssis Developer,Genpact,Bangalore,False,15.0,20.0,4.0,7.0,naukri,2026-03-30 15:10:43.241146
+Datastage Developer5-10 Years,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.250157
+Talend Developer-Female Candidates,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.259134
+Python Developer Lead,Hexaware Technologies,Bangalore,False,15.0,25.0,7.0,12.0,naukri,2026-03-30 15:10:43.268180
+Informatica Iics Developer,Tata Consultancy Services,Hyderabad,False,,,8.0,13.0,naukri,2026-03-30 15:10:43.285110
+Etl Developer,Enormous IT Services Pvt. Ltd,Hyderabad,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.294384
+Datastage Developer,Capgemini,Bangalore,False,,,4.0,9.0,naukri,2026-03-30 15:10:43.311054
+Etl Tester,Hexaware Technologies,Bangalore,False,,,6.0,9.0,naukri,2026-03-30 15:10:43.320059
+Opening For Etl Developer,Tekskills India Pvt ltd,Pune,False,,,8.0,13.0,naukri,2026-03-30 15:10:43.336657
+Etl Datastage Developer,Tata Consultancy Services,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:43.353346
+Iics Developer5-8 Years-Pan India,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.370633
+Informatica Etl,Reyika,Bangalore,False,,,6.0,11.0,naukri,2026-03-30 15:10:43.379802
+Senior Application Developer,Talworx Solutions,Bangalore,False,,,7.0,11.0,naukri,2026-03-30 15:10:43.396763
+Gcp Developer Google Cloud Platform-Pan India 5-12 Years,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.405858
+Pwa Progressive Web Apps Developer,Infosys,Bangalore,False,,,5.0,8.0,naukri,2026-03-30 15:10:43.422642
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.431462
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.440791
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-30 15:10:43.449896
+Application Developer,Accenture,Mumbai,False,,,15.0,20.0,naukri,2026-03-30 15:10:43.458748
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-30 15:10:43.467661
+Web Application Developer,Info Solution,Mumbai,False,,,2.0,4.0,naukri,2026-03-30 15:10:43.476567
+Application Developer-Web Content Management,IBM,Mumbai,False,,,5.0,7.0,naukri,2026-03-30 15:10:43.485852
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-30 15:10:43.495458
+Application Developer-Process Management Bpm,IBM,Mumbai,False,7.0,15.0,6.0,11.0,naukri,2026-03-30 15:10:43.504633
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.513830
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.523130
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-30 15:10:43.532163
+Application Developer,Accenture,Mumbai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.546579
+Senior Etl Talend Developer,Datamatics,Mumbai,False,,,6.0,11.0,naukri,2026-03-30 15:10:43.559699
+Datastage Developer5-12 Years,Infosys,Hyderabad,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.576380
+Talend Developer 5-12 Years-Women Hiring Drive,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.585362
+Etl Lead Developer,Workpedia,Chennai,False,,,7.0,10.0,naukri,2026-03-30 15:10:43.594635
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.611593
+Application Developer,Accenture,Chennai,False,,,2.0,5.0,naukri,2026-03-30 15:10:43.620625
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.629371
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.638376
+Power Apps Developer,Sonata Software,Bangalore,False,,,4.0,8.0,naukri,2026-03-30 15:10:43.647214
+Net Application Developer-Blrraja,Infosys,Bangalore,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.664490
+Application Developer,Accenture,Chennai,False,,,15.0,20.0,naukri,2026-03-30 15:10:43.681912
+Application Developer,Accenture,Chennai,False,,,3.0,8.0,naukri,2026-03-30 15:10:43.691080
+Application Developer,Accenture,Chennai,False,,,5.0,10.0,naukri,2026-03-30 15:10:43.700332
+Application Developer,Accenture,Mumbai,False,,,6.0,11.0,naukri,2026-03-30 15:10:43.717567
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-30 15:10:43.726853
+Application Developer,Accenture,Mumbai,False,,,2.0,5.0,naukri,2026-03-30 15:10:43.736418
