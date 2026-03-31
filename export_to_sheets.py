@@ -1,7 +1,7 @@
 import pandas as pd
 import gspread
 from google.oauth2.service_account import Credentials
-from loaders.postgres_loader import get_connection
+from sqlalchemy import create_engine
 import os
 from loguru import logger
 from dotenv import load_dotenv
@@ -17,9 +17,24 @@ SCOPES = [
 ]
 
 CREDS_FILE = os.getenv("GOOGLE_SHEETS_CREDS", "credentials/google_sheets_creds.json")
-SPREADSHEET_ID = os.getenv("GOOGLE_SHEET_ID", "your-google-sheet-id-here")
+SPREADSHEET_ID = os.getenv("GOOGLE_SHEET_ID", "1PBwphUOosT4XICocl9iQmeqqntLGcwNnMom_-hrg4Ro")
 
 
+# ============================================
+# Database Connection (SQLAlchemy — No Warnings)
+# ============================================
+def get_sqlalchemy_engine():
+    """Create SQLAlchemy engine to avoid pandas warnings"""
+    db_url = (
+        f"postgresql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}"
+        f"@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
+    )
+    return create_engine(db_url)
+
+
+# ============================================
+# Google Sheets Client
+# ============================================
 def get_sheets_client():
     """Authenticate and return Google Sheets client"""
     creds = Credentials.from_service_account_file(CREDS_FILE, scopes=SCOPES)
@@ -27,6 +42,9 @@ def get_sheets_client():
     return client
 
 
+# ============================================
+# Upload DataFrame to Google Sheet Tab
+# ============================================
 def upload_to_sheet(client, spreadsheet_id, sheet_name, df):
     """Upload a DataFrame to a specific sheet tab"""
     try:
@@ -43,7 +61,6 @@ def upload_to_sheet(client, spreadsheet_id, sheet_name, df):
                 cols=len(df.columns)
             )
 
-        # Convert DataFrame to list of lists
         # Handle NaN values — Google Sheets doesn't accept NaN
         df = df.fillna("")
 
@@ -60,11 +77,14 @@ def upload_to_sheet(client, spreadsheet_id, sheet_name, df):
         raise
 
 
+# ============================================
+# Fetch All Data from PostgreSQL
+# ============================================
 def fetch_data():
-    """Fetch all data from PostgreSQL"""
-    conn = get_connection()
+    """Fetch all data from PostgreSQL using SQLAlchemy"""
+    engine = get_sqlalchemy_engine()
 
-    # Export 1 — Jobs cleaned
+    # Export 1 — jobs_cleaned
     df_jobs = pd.read_sql("""
         SELECT
             title_std, company, city,
@@ -75,26 +95,26 @@ def fetch_data():
             source, posted_at
         FROM jobs_cleaned
         WHERE title_std IS NOT NULL
-    """, conn)
+    """, engine)
 
-    # Export 2 — Top skills
+    # Export 2 — top_skills
     df_skills = pd.read_sql("""
         SELECT skill, source, COUNT(*) as job_count
         FROM skills_extracted
         GROUP BY skill, source
         ORDER BY job_count DESC
-    """, conn)
+    """, engine)
 
-    # Export 3 — Jobs by city
+    # Export 3 — jobs_by_city
     df_cities = pd.read_sql("""
         SELECT city, source, COUNT(*) as job_count
         FROM jobs_cleaned
         WHERE city IS NOT NULL
         GROUP BY city, source
         ORDER BY job_count DESC
-    """, conn)
+    """, engine)
 
-    # Export 4 — Salary by city
+    # Export 4 — salary_by_city
     df_salary = pd.read_sql("""
         SELECT
             city,
@@ -106,9 +126,9 @@ def fetch_data():
         AND salary_min IS NOT NULL
         GROUP BY city
         ORDER BY avg_max_lpa DESC
-    """, conn)
+    """, engine)
 
-    # Export 5 — Top companies
+    # Export 5 — top_companies
     df_companies = pd.read_sql("""
         SELECT company, city, source, COUNT(*) as job_count
         FROM jobs_cleaned
@@ -116,9 +136,9 @@ def fetch_data():
         GROUP BY company, city, source
         ORDER BY job_count DESC
         LIMIT 50
-    """, conn)
+    """, engine)
 
-    # Export 6 — Experience distribution
+    # Export 6 — experience_distribution
     df_exp = pd.read_sql("""
         SELECT
             CASE
@@ -133,22 +153,26 @@ def fetch_data():
         WHERE experience_min IS NOT NULL
         GROUP BY experience_level
         ORDER BY job_count DESC
-    """, conn)
+    """, engine)
 
-    conn.close()
+    # Clean up connection
+    engine.dispose()
 
     return {
-        "Jobs Cleaned": df_jobs,
-        "Top Skills": df_skills,
-        "Jobs By City": df_cities,
-        "Salary By City": df_salary,
-        "Top Companies": df_companies,
-        "Experience Distribution": df_exp
+        "jobs_cleaned": df_jobs,
+        "top_skills": df_skills,
+        "jobs_by_city": df_cities,
+        "salary_by_city": df_salary,
+        "top_companies": df_companies,
+        "experience_distribution": df_exp
     }
 
 
+# ============================================
+# Export to Google Sheets (Main Function)
+# ============================================
 def export_to_google_sheets():
-    """Main function — Fetch data and upload to Google Sheets"""
+    """Fetch data from PostgreSQL and upload to Google Sheets"""
     logger.info("🚀 Starting Google Sheets export...")
 
     # Fetch data from PostgreSQL
@@ -172,18 +196,21 @@ def export_to_google_sheets():
     print("=" * 50)
 
 
+# ============================================
+# Export to CSV (Backup)
+# ============================================
 def export_to_csv_backup():
-    """Also save CSV locally as backup"""
+    """Save CSV locally as backup"""
     datasets = fetch_data()
     os.makedirs("exports", exist_ok=True)
 
     file_map = {
-        "Jobs Cleaned": "jobs_cleaned.csv",
-        "Top Skills": "top_skills.csv",
-        "Jobs By City": "jobs_by_city.csv",
-        "Salary By City": "salary_by_city.csv",
-        "Top Companies": "top_companies.csv",
-        "Experience Distribution": "experience_distribution.csv"
+        "jobs_cleaned": "jobs_cleaned.csv",
+        "top_skills": "top_skills.csv",
+        "jobs_by_city": "jobs_by_city.csv",
+        "salary_by_city": "salary_by_city.csv",
+        "top_companies": "top_companies.csv",
+        "experience_distribution": "experience_distribution.csv"
     }
 
     for sheet_name, df in datasets.items():
@@ -197,5 +224,5 @@ def export_to_csv_backup():
 # Main Execution
 # ============================================
 if __name__ == "__main__":
-    export_to_google_sheets()   # Upload to Google Sheets
+    export_to_google_sheets()    # Upload to Google Sheets
     export_to_csv_backup()       # Also save CSV as backup
