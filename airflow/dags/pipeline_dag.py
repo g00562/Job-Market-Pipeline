@@ -7,7 +7,6 @@ import os
 sys.path.insert(0, "/Users/imac/Desktop/de project/job-market-pipeline")
 
 from scrapers.naukri_scraper import NaukriScraper
-from scrapers.indeed_scraper import IndeedScraper
 from transformers.cleaner import clean_job
 from transformers.skill_extractor import extract_skills
 from transformers.deduplicator import get_all_raw_jobs, mark_duplicates
@@ -23,9 +22,11 @@ default_args = {
     "retry_delay":      timedelta(minutes=5),
 }
 
+
 def task_setup_db():
     create_tables()
     logger.info("Database ready")
+
 
 def task_scrape_naukri():
     scraper = NaukriScraper()
@@ -33,11 +34,6 @@ def task_scrape_naukri():
     logger.info(f"Naukri scrape done — {total} jobs inserted")
     return total
 
-def task_scrape_indeed():
-    scraper = IndeedScraper()
-    total   = scraper.scrape()
-    logger.info(f"Indeed scrape done — {total} jobs inserted")
-    return total
 
 def task_transform():
     mark_duplicates()
@@ -58,6 +54,23 @@ def task_transform():
             failed += 1
     logger.info(f"Transform done — Success: {success} | Failed: {failed}")
     return success
+
+
+# ============================================
+# NEW — Google Sheets Export Task
+# ============================================
+def task_export_to_sheets():
+    """Export all data to Google Sheets automatically"""
+    from export_to_sheets import export_to_google_sheets, export_to_csv_backup
+
+    # Upload to Google Sheets
+    export_to_google_sheets()
+
+    # Also save CSV as backup
+    export_to_csv_backup()
+
+    logger.info("✅ Data exported to Google Sheets + CSV backup")
+
 
 def task_summary():
     from loaders.postgres_loader import get_connection
@@ -105,10 +118,11 @@ def task_summary():
         cur.close()
         conn.close()
 
+
 with DAG(
     dag_id           = "job_market_pipeline",
     default_args     = default_args,
-    description      = "Daily job market scraping and transformation pipeline",
+    description      = "Daily job market scraping, transformation, and export pipeline",
     schedule         = "0 9 * * *",
     start_date       = datetime(2026, 3, 27),
     catchup          = False,
@@ -126,16 +140,17 @@ with DAG(
         execution_timeout = timedelta(hours=2),
     )
 
-    scrape_indeed = PythonOperator(
-        task_id           = "scrape_indeed",
-        python_callable   = task_scrape_indeed,
-        execution_timeout = timedelta(hours=2),
-    )
-
     transform = PythonOperator(
         task_id           = "transform_jobs",
         python_callable   = task_transform,
         execution_timeout = timedelta(hours=1),
+    )
+
+    # NEW — Export to Google Sheets
+    export_sheets = PythonOperator(
+        task_id           = "export_to_google_sheets",
+        python_callable   = task_export_to_sheets,
+        execution_timeout = timedelta(minutes=15),
     )
 
     summary = PythonOperator(
@@ -143,6 +158,10 @@ with DAG(
         python_callable = task_summary,
     )
 
-    # Pipeline order
-    # setup_db → scrape_naukri → scrape_indeed → transform → summary
-    setup_db >> scrape_naukri >> scrape_indeed >> transform >> summary
+    # ============================================
+    # Updated Pipeline Order
+    # ============================================
+    # OLD: setup_db >> scrape_naukri >> transform >> summary
+    # NEW: setup_db >> scrape_naukri >> transform >> export_sheets >> summary
+
+    setup_db >> scrape_naukri >> transform >> export_sheets >> summary

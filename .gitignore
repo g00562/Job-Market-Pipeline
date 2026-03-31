@@ -8,3 +8,8 @@ exports/
 *.log
 .DS_Store
 *.csv
+
+# Never push credentials to GitHub!
+credentials/
+*.json
+.env

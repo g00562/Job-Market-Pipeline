@@ -1,45 +1,48 @@
 skill,source,job_count
-Etl,naukri,185
-Gcp,naukri,107
-Sql,naukri,48
-Azure,naukri,41
-Python,naukri,37
-Aws,naukri,37
+Etl,naukri,208
+Gcp,naukri,134
+Sql,naukri,59
+Azure,naukri,54
+Python,naukri,48
+Aws,naukri,46
+Databricks,naukri,29
+Bigquery,naukri,22
 Java,naukri,20
-Databricks,naukri,19
-Bigquery,naukri,18
-Redshift,naukri,16
-Snowflake,naukri,15
-Spark,naukri,11
+Snowflake,naukri,19
+Redshift,naukri,17
+Spark,naukri,14
+Elt,naukri,12
+S3,naukri,11
+Scala,naukri,10
+Data Modeling,naukri,10
+Power Bi,naukri,9
+Azure Data Factory,naukri,9
 Glue,naukri,9
-Elt,naukri,9
-S3,naukri,9
-Azure Data Factory,naukri,8
-Power Bi,naukri,8
-Data Modeling,naukri,6
-Airflow,naukri,6
+Airflow,naukri,8
+Dbt,naukri,7
+Hadoop,naukri,6
 Tableau,naukri,5
-Dataflow,naukri,5
 Data Lake,naukri,5
-Scala,naukri,5
-Dbt,naukri,5
-Hadoop,naukri,5
+Dataflow,naukri,5
+Data Warehouse,naukri,4
+Data Quality,naukri,4
 Kafka,naukri,3
-Apache Spark,naukri,3
-Data Warehouse,naukri,3
 Ec2,naukri,3
+Apache Spark,naukri,3
 Git,naukri,3
-Microservices,naukri,2
+Etl,indeed,2
 Github,naukri,2
-R,naukri,1
+Microservices,naukri,2
+Data Pipeline,naukri,2
+Mongodb,naukri,1
 Rest Api,naukri,1
 Postgresql,naukri,1
-Kinesis,naukri,1
-Terraform,naukri,1
-Data Pipeline,naukri,1
-Jenkins,naukri,1
-Docker,naukri,1
-Looker,naukri,1
-Mysql,naukri,1
 Kubernetes,naukri,1
-Data Quality,naukri,1
+Jenkins,naukri,1
+Hive,naukri,1
+R,naukri,1
+Mysql,naukri,1
+Kinesis,naukri,1
+Looker,naukri,1
+Docker,naukri,1
+Terraform,naukri,1
