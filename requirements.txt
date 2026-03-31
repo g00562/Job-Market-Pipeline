@@ -139,3 +139,5 @@ wirerope==1.0.0
 wrapt==2.1.2
 wsproto==1.3.2
 zipp==3.23.0
+gspread
+google-auth
