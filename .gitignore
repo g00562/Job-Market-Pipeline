@@ -2,13 +2,14 @@ venv/
 airflow/
 __pycache__/
 *.pyc
+
 .env
+
 logs/
 exports/
 *.log
 .DS_Store
 *.csv
 
-# Never push credentials to GitHub!
 credentials/
 *.json
