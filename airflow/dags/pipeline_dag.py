@@ -35,14 +35,34 @@ def task_scrape_naukri():
     return total
 
 
+def task_scrape_linkedin():
+    from scrapers.linkedin_scraper import LinkedInScraper
+    scraper = LinkedInScraper()
+    total   = scraper.scrape()
+    logger.info(f"LinkedIn scrape done — {total} jobs inserted")
+    return total
+
+
+def task_scrape_indeed():
+    from scrapers.indeed_scraper import IndeedScraper
+    scraper = IndeedScraper()
+    total   = scraper.scrape()
+    logger.info(f"Indeed scrape done — {total} jobs inserted")
+    return total
+
+
 def task_transform():
     mark_duplicates()
     raw_jobs = get_all_raw_jobs()
     success  = 0
     failed   = 0
+    skipped  = 0
     for raw_job in raw_jobs:
         try:
-            cleaned    = clean_job(raw_job)
+            cleaned = clean_job(raw_job)
+            if cleaned is None:
+                skipped += 1
+                continue
             cleaned_id = insert_cleaned_job(cleaned)
             text       = f"{raw_job.get('title','')} {raw_job.get('description','')}"
             skills     = extract_skills(text)
@@ -52,24 +72,18 @@ def task_transform():
         except Exception as e:
             logger.error(f"Transform failed for job id={raw_job['id']}: {e}")
             failed += 1
-    logger.info(f"Transform done — Success: {success} | Failed: {failed}")
+    logger.info(f"Transform done — Success: {success} | Skipped: {skipped} | Failed: {failed}")
     return success
 
 
-# ============================================
-# NEW — Google Sheets Export Task
-# ============================================
 def task_export_to_sheets():
     """Export all data to Google Sheets automatically"""
+    import sys
+    sys.path.insert(0, "/Users/imac/Desktop/de project/job-market-pipeline")
     from export_to_sheets import export_to_google_sheets, export_to_csv_backup
-
-    # Upload to Google Sheets
     export_to_google_sheets()
-
-    # Also save CSV as backup
     export_to_csv_backup()
-
-    logger.info("✅ Data exported to Google Sheets + CSV backup")
+    logger.info("Data exported to Google Sheets + CSV backup")
 
 
 def task_summary():
@@ -90,6 +104,7 @@ def task_summary():
             SELECT source, COUNT(*) as cnt
             FROM jobs_raw
             GROUP BY source
+            ORDER BY cnt DESC
         """)
         by_source = cur.fetchall()
 
@@ -140,13 +155,24 @@ with DAG(
         execution_timeout = timedelta(hours=2),
     )
 
+    scrape_linkedin = PythonOperator(
+        task_id           = "scrape_linkedin",
+        python_callable   = task_scrape_linkedin,
+        execution_timeout = timedelta(hours=1),
+    )
+
+    scrape_indeed = PythonOperator(
+        task_id           = "scrape_indeed",
+        python_callable   = task_scrape_indeed,
+        execution_timeout = timedelta(hours=1),
+    )
+
     transform = PythonOperator(
         task_id           = "transform_jobs",
         python_callable   = task_transform,
         execution_timeout = timedelta(hours=1),
     )
 
-    # NEW — Export to Google Sheets
     export_sheets = PythonOperator(
         task_id           = "export_to_google_sheets",
         python_callable   = task_export_to_sheets,
@@ -158,10 +184,8 @@ with DAG(
         python_callable = task_summary,
     )
 
-    # ============================================
-    # Updated Pipeline Order
-    # ============================================
-    # OLD: setup_db >> scrape_naukri >> transform >> summary
-    # NEW: setup_db >> scrape_naukri >> transform >> export_sheets >> summary
+    # Pipeline order:
+    # setup_db → scrape_naukri → scrape_linkedin → scrape_indeed
+    #          → transform → export_sheets → summary
 
-    setup_db >> scrape_naukri >> transform >> export_sheets >> summary
+    setup_db >> scrape_naukri >> scrape_linkedin >> scrape_indeed >> transform >> export_sheets >> summary

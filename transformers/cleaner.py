@@ -1,12 +1,49 @@
 import re
 from loguru import logger
 
+# ── Relevant DE job title keywords ──
+RELEVANT_TITLES = [
+    "data engineer",
+    "data engineering",
+    "etl developer",
+    "etl engineer",
+    "data pipeline",
+    "big data engineer",
+    "data platform engineer",
+    "cloud data engineer",
+    "analytics engineer",
+    "data warehouse engineer",
+    "dwh engineer",
+    "azure data engineer",
+    "aws data engineer",
+    "gcp data engineer",
+    "databricks engineer",
+    "data integration engineer",
+]
+
+# ── Title standardization map ──
+TITLE_STANDARDS = {
+    "sr.":    "senior",
+    "sr ":    "senior ",
+    "jr.":    "junior",
+    "jr ":    "junior ",
+    "lead de": "lead data engineer",
+}
+
+def is_relevant_job(title: str) -> bool:
+    """Returns True only if job title is relevant to Data Engineering."""
+    if not title:
+        return False
+    title_lower = title.lower()
+    return any(keyword in title_lower for keyword in RELEVANT_TITLES)
+
 def clean_title(title: str) -> str:
     if not title:
         return None
     title = re.sub(r"[^\w\s\-\/]", "", title)
-    title = re.sub(r"\s+", " ", title).strip()
-    title = title.replace("Sr.", "Senior").replace("Jr.", "Junior")
+    title = re.sub(r"\s+", " ", title).strip().lower()
+    for old, new in TITLE_STANDARDS.items():
+        title = title.replace(old, new)
     return title.title()
 
 def clean_company(company: str) -> str:
@@ -24,12 +61,12 @@ def clean_location(location: str):
     is_remote = any(w in location for w in ["remote", "work from home", "wfh"])
     city_map  = {
         "bangalore": "Bangalore", "bengaluru": "Bangalore",
-        "hyderabad": "Hyderabad", "pune": "Pune",
-        "mumbai":    "Mumbai",    "chennai": "Chennai",
-        "delhi":     "Delhi",     "noida": "Noida",
-        "gurgaon":   "Gurgaon",   "gurugram": "Gurgaon",
-        "kolkata":   "Kolkata",   "ahmedabad": "Ahmedabad",
-        "surat":     "Surat",     "remote": "Remote",
+        "hyderabad": "Hyderabad", "pune":      "Pune",
+        "mumbai":    "Mumbai",    "chennai":   "Chennai",
+        "delhi":     "Delhi",     "noida":     "Noida",
+        "gurgaon":   "Gurgaon",  "gurugram":  "Gurgaon",
+        "kolkata":   "Kolkata",  "ahmedabad": "Ahmedabad",
+        "surat":     "Surat",    "remote":    "Remote",
     }
     for key, value in city_map.items():
         if key in location:
@@ -61,10 +98,16 @@ def parse_experience(experience: str) -> tuple:
         return int(numbers[0]), int(numbers[0])
     return None, None
 
-def clean_job(raw_job: dict) -> dict:
-    city, is_remote         = clean_location(raw_job.get("location"))
-    salary_min, salary_max  = parse_salary(raw_job.get("salary_raw"))
-    exp_min, exp_max        = parse_experience(raw_job.get("experience"))
+def clean_job(raw_job: dict) -> dict | None:
+    # Filter irrelevant jobs first
+    if not is_relevant_job(raw_job.get("title")):
+        logger.debug(f"Skipping irrelevant: {raw_job.get('title')}")
+        return None
+
+    city, is_remote        = clean_location(raw_job.get("location"))
+    salary_min, salary_max = parse_salary(raw_job.get("salary_raw"))
+    exp_min, exp_max       = parse_experience(raw_job.get("experience"))
+
     return {
         "raw_id":         raw_job["id"],
         "title_std":      clean_title(raw_job.get("title")),

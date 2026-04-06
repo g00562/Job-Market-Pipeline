@@ -40,11 +40,29 @@ def get_all_raw_jobs() -> list:
             WHERE id NOT IN (
                 SELECT raw_id FROM jobs_cleaned WHERE raw_id IS NOT NULL
             )
+            AND (
+                LOWER(title) LIKE '%data engineer%'
+                OR LOWER(title) LIKE '%data engineering%'
+                OR LOWER(title) LIKE '%etl developer%'
+                OR LOWER(title) LIKE '%etl engineer%'
+                OR LOWER(title) LIKE '%data pipeline%'
+                OR LOWER(title) LIKE '%big data%'
+                OR LOWER(title) LIKE '%data warehouse%'
+                OR LOWER(title) LIKE '%dwh engineer%'
+                OR LOWER(title) LIKE '%azure data%'
+                OR LOWER(title) LIKE '%aws data%'
+                OR LOWER(title) LIKE '%databricks%'
+                OR LOWER(title) LIKE '%analytics engineer%'
+                OR LOWER(title) LIKE '%data platform%'
+                OR LOWER(title) LIKE '%data integration%'
+            )
             ORDER BY id
         """)
         cols = ["id","source","title","company","location",
                 "salary_raw","experience","description","url"]
-        return [dict(zip(cols, row)) for row in cur.fetchall()]
+        rows = cur.fetchall()
+        logger.info(f"Fetched {len(rows)} relevant raw jobs for transformation")
+        return [dict(zip(cols, row)) for row in rows]
     finally:
         cur.close()
         conn.close()

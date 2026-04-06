@@ -1,51 +1,51 @@
 company,city,source,job_count
-Accenture,Mumbai,naukri,196
-Accenture,Bangalore,naukri,117
-Accenture,Pune,naukri,113
-Accenture,Chennai,naukri,86
-Tata Consultancy Services,Bangalore,naukri,48
-Infosys,Bangalore,naukri,33
-Accenture,Hyderabad,naukri,18
-IBM,Mumbai,naukri,18
-Capgemini,Bangalore,naukri,14
-Hexaware Technologies,Bangalore,naukri,12
-IBM,Chennai,naukri,11
+Accenture,Mumbai,naukri,150
+Accenture,Bangalore,naukri,130
+Accenture,Pune,naukri,104
+Accenture,Chennai,naukri,64
+Tata Consultancy Services,Bangalore,naukri,60
+Accenture,Hyderabad,naukri,23
+PwC Service Delivery Center,Bangalore,naukri,14
+Hexaware Technologies,Bangalore,naukri,13
+Virtusa,Hyderabad,naukri,13
+Infosys,Bangalore,naukri,12
+IBM,Pune,linkedin,12
+Barclays,Pune,naukri,11
+Tata Consultancy Services,Hyderabad,naukri,11
+Photon,Bangalore,naukri,11
+Vodafone,Pune,indeed,11
+UPS,Chennai,linkedin,10
+Kpmg India Services Llp,Bangalore,indeed,10
+Mastercard,Pune,naukri,10
+Reliant Medical Group,Chennai,indeed,10
 Tredence,Bangalore,naukri,10
-Barclays,Pune,naukri,10
-Photon,Bangalore,naukri,10
-Tata Consultancy Services,Hyderabad,naukri,9
-Tata Consultancy Services,Mumbai,naukri,9
-Mastercard,Pune,naukri,9
-Logic Planet,Bangalore,naukri,9
+EY,Hyderabad,naukri,10
+LatentView,Chennai,naukri,9
+InfoCepts,Mumbai,indeed,9
+Tiger Analytics,Bangalore,naukri,8
+IBM,Hyderabad,linkedin,8
+McAfee,Bangalore,indeed,8
+The Cigna Group,Hyderabad,indeed,8
+Tata Consultancy Services,Mumbai,naukri,8
+Professional,Pune,indeed,8
+IBM,Pune,naukri,8
 Leading Client,Hyderabad,naukri,8
-UPS Supply Chain Solutions (UPS SCS),Bangalore,naukri,6
-LatentView,Chennai,naukri,6
-Amazon,Bangalore,naukri,6
-IBM,Pune,naukri,6
-Deloitte Consulting,Bangalore,naukri,6
-Lloyds Technology Centre India,Hyderabad,naukri,5
-EY,Hyderabad,naukri,5
-Equinix,Bangalore,naukri,5
-Squircle IT,Bangalore,naukri,5
-Clifyx Technology,Bangalore,naukri,5
-Tiger Analytics,Bangalore,naukri,5
-Amazon,Hyderabad,naukri,4
-IBM,Bangalore,naukri,4
-Mondelez,Mumbai,naukri,4
-Amgen Inc,Hyderabad,naukri,4
-Leading Client,Bangalore,naukri,4
-Sonata Software,Bangalore,naukri,4
-HCLTech,Bangalore,naukri,4
-Ascendion Engineering,Bangalore,naukri,4
-EY,Bangalore,naukri,4
-Publicis Sapient,Bangalore,naukri,4
-Tech Mahindra,Bangalore,naukri,3
-Guidewire Software,Bangalore,naukri,3
-Tata Consultancy Services,Chennai,naukri,3
-Techknomatic,Pune,naukri,3
-Walmart,Chennai,naukri,3
-MSCI Services,Mumbai,naukri,3
-Fractal Analytics,Mumbai,naukri,3
-ZS,Pune,naukri,3
-Deloitte Consulting,Pune,naukri,3
-CGI,Bangalore,naukri,3
+Logic Planet,Bangalore,naukri,8
+Optum,Bangalore,naukri,8
+Deloitte Consulting,Bangalore,naukri,7
+Amazon,Bangalore,naukri,7
+EY,Bangalore,naukri,7
+Capgemini,Bangalore,naukri,7
+iCIMS Talent Acquisition,Rai Durg,indeed,6
+Lloyds Technology Centre India,Hyderabad,naukri,6
+Deloitte,Hyderabad,linkedin,6
+Aventiqo,Mumbai,indeed,6
+"NTT Global Data Centers Americas, Inc.",Chennai,indeed,6
+Capgemini,Mumbai,indeed,6
+IBM,Mumbai,naukri,6
+Amazon,Hyderabad,naukri,6
+Optum,Chennai,naukri,5
+Solvitecno LLP,Chennai,indeed,5
+Allstate,Pune,indeed,5
+Cosmoquick,Mumbai,indeed,5
+Leading Client,Bangalore,naukri,5

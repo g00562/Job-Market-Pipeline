@@ -1,8 +1,25 @@
 city,source,job_count
-Bangalore,naukri,557
-Mumbai,naukri,287
-Pune,naukri,249
-Chennai,naukri,171
-Hyderabad,naukri,110
-Bangalore,indeed,16
+Bangalore,naukri,617
+Pune,naukri,254
+Mumbai,naukri,230
+Chennai,naukri,160
+Hyderabad,naukri,138
+Bangalore,indeed,118
+Hyderabad,indeed,101
+Pune,indeed,96
+Mumbai,indeed,92
+Chennai,indeed,82
+Hyderabad,linkedin,69
+Pune,linkedin,67
+Bangalore,linkedin,51
+Chennai,linkedin,49
+Mumbai,linkedin,44
 Remote,naukri,13
+Pimpri-Chinchwad,indeed,7
+Rai Durg,indeed,6
+Chamba,indeed,4
+Murud,indeed,4
+Secunderabad,indeed,3
+Kolhapur,indeed,2
+"Serilingampalli, Telangana, India",linkedin,1
+Kothaguda,indeed,1
