@@ -1,15 +1,27 @@
+# Environment
+.env
 venv/
-airflow/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
 
-.env
-
-logs/
-exports/
-*.log
+# macOS
 .DS_Store
-*.csv
 
-credentials/
-*.json
+# Logs
+logs/*.log
+
+# Exports (generated data)
+exports/*.csv
+
+# Airflow runtime files
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/logs/
+airflow/simple_auth_manager_passwords.json.generated
+airflow/*.cfg.save
+
+# Credentials (never commit)
+credentials/google_sheets_creds.json

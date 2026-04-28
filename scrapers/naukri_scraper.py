@@ -1,6 +1,7 @@
 import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -14,6 +15,7 @@ from loaders.postgres_loader import insert_raw_job, job_exists
 from loguru import logger
 import time
 import random
+from config import Config
 
 SEARCH_KEYWORDS = [
     "data-engineer",
@@ -33,38 +35,43 @@ class NaukriScraper:
     def __init__(self):
         self.source = "naukri"
         self.driver = self._init_driver()
+        self.pages_per_location = Config.NAUKRI_PAGES
 
     def _init_driver(self):
-        options = Options()
-        options.add_argument("--headless")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_argument("--window-size=1920,1080")
-        options.add_argument(
-            "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/120.0.0.0 Safari/537.36"
-        )
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        options.add_experimental_option("useAutomationExtension", False)
-        service = Service(ChromeDriverManager().install())
-        driver  = webdriver.Chrome(service=service, options=options)
-        logger.info("Chrome driver initialized")
-        return driver
+        try:
+            options = Options()
+            options.add_argument("--headless")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--disable-blink-features=AutomationControlled")
+            options.add_argument("--window-size=1920,1080")
+            options.add_argument(
+                "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            )
+            options.add_experimental_option("excludeSwitches", ["enable-automation"])
+            options.add_experimental_option("useAutomationExtension", False)
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=options)
+            logger.info("✅ Chrome driver initialized")
+            return driver
+        except Exception as e:
+            logger.error(f"❌ Failed to initialize Chrome driver: {e}")
+            raise
 
     def get_page_source(self, url: str) -> BeautifulSoup | None:
         try:
             self.driver.get(url)
-            WebDriverWait(self.driver, 15).until(
+            WebDriverWait(self.driver, Config.SCRAPER_TIMEOUT).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "srp-jobtuple-wrapper"))
             )
-            time.sleep(random.uniform(2, 4))
+            time.sleep(random.uniform(Config.SCRAPER_DELAY_MIN, Config.SCRAPER_DELAY_MAX))
             soup = BeautifulSoup(self.driver.page_source, "lxml")
-            logger.info(f"Fetched: {url}")
+            logger.debug(f"✅ Fetched: {url}")
             return soup
         except Exception as e:
-            logger.warning(f"Timeout or error on {url}: {e}")
+            logger.warning(f"⚠️ Timeout or error on {url}: {e}")
             try:
                 return BeautifulSoup(self.driver.page_source, "lxml")
             except:
@@ -127,13 +134,13 @@ class NaukriScraper:
         try:
             for keyword in SEARCH_KEYWORDS:
                 for location in LOCATIONS:
-                    for page in range(1, 4):
+                    for page in range(1, self.pages_per_location + 1):
                         if page == 1:
                             url = f"https://www.naukri.com/{keyword}-jobs-in-{location}"
                         else:
                             url = f"https://www.naukri.com/{keyword}-jobs-in-{location}-{page}"
 
-                        logger.info(f"Scraping: {keyword} | {location} | page {page}")
+                        logger.info(f"🔍 Scraping: {keyword} | {location} | page {page}")
                         soup = self.get_page_source(url)
                         jobs = self.parse_jobs(soup)
 
@@ -142,14 +149,19 @@ class NaukriScraper:
                                 insert_raw_job(job)
                                 total_inserted += 1
                             except Exception as e:
-                                logger.error(f"Insert failed: {e}")
+                                logger.warning(f"⚠️ Insert failed: {e}")
 
-                        time.sleep(random.uniform(3, 5))
+                        time.sleep(random.uniform(Config.SCRAPER_DELAY_MIN, Config.SCRAPER_DELAY_MAX))
+        except Exception as e:
+            logger.error(f"❌ Scraping error: {e}")
         finally:
-            self.driver.quit()
-            logger.info("Browser closed")
-
-        logger.info(f"Naukri scraping done. Total inserted: {total_inserted}")
+            try:
+                self.driver.quit()
+                logger.info("✅ Browser closed")
+            except:
+                pass
+        
+        logger.info(f"✅ Naukri scraping done. Total inserted: {total_inserted}")
         return total_inserted
 
 

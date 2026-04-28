@@ -1,6 +1,7 @@
 import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import requests
 from bs4 import BeautifulSoup
@@ -8,6 +9,7 @@ from loaders.postgres_loader import insert_raw_job, job_exists
 from loguru import logger
 import time
 import random
+from config import Config
 
 SEARCH_KEYWORDS = [
     "data engineer",
@@ -119,21 +121,25 @@ class LinkedInScraper:
 
         for keyword in SEARCH_KEYWORDS:
             for location in LOCATIONS:
-                for page in range(0, 3):
+                for page in range(0, Config.LINKEDIN_PAGES):
                     start = page * 25
-                    logger.info(f"Scraping LinkedIn: {keyword} | {location} | page {page+1}")
-                    jobs  = self.get_jobs(keyword, location, start)
+                    logger.info(f"🔍 Scraping LinkedIn: {keyword} | {location} | page {page+1}")
+                    try:
+                        jobs = self.get_jobs(keyword, location, start)
 
-                    for job in jobs:
-                        try:
-                            insert_raw_job(job)
-                            total_inserted += 1
-                        except Exception as e:
-                            logger.error(f"Insert failed: {e}")
+                        for job in jobs:
+                            try:
+                                insert_raw_job(job)
+                                total_inserted += 1
+                            except Exception as e:
+                                logger.warning(f"⚠️ Insert failed: {e}")
 
-                    time.sleep(random.uniform(3, 6))
+                        time.sleep(random.uniform(Config.SCRAPER_DELAY_MIN, Config.SCRAPER_DELAY_MAX))
+                    except Exception as e:
+                        logger.error(f"❌ Error scraping page: {e}")
+                        continue
 
-        logger.info(f"LinkedIn scraping done. Total inserted: {total_inserted}")
+        logger.info(f"✅ LinkedIn scraping done. Total inserted: {total_inserted}")
         return total_inserted
 
 

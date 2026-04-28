@@ -3,7 +3,7 @@ from loguru import logger
 
 DE_SKILLS = [
     "python", "sql", "scala", "java", "bash",
-    "apache spark", "spark", "hadoop", "hive", "kafka",
+    "apache spark", "spark", "hadoop", "hive",
     "flink", "pig",
     "postgresql", "mysql", "mongodb", "cassandra", "redis",
     "elasticsearch", "dynamodb",
@@ -22,18 +22,25 @@ DE_SKILLS = [
 ]
 
 def extract_skills(text: str) -> list:
+    """
+    Extract data engineering skills from text.
+    Returns deduplicated list of skills with consistent capitalization.
+    """
     if not text:
         return []
-    text_lower   = text.lower()
+    
+    text_lower = text.lower()
     found_skills = []
+    
+    # Use a set to track found skills (case-insensitive)
+    seen_skills = set()
+    
     for skill in DE_SKILLS:
-        pattern = r"\b" + re.escape(skill) + r"\b"
-        if re.search(pattern, text_lower):
-            found_skills.append(skill.title())
-    seen   = set()
-    unique = []
-    for skill in found_skills:
-        if skill.lower() not in seen:
-            seen.add(skill.lower())
-            unique.append(skill)
-    return unique
+        if skill.lower() not in seen_skills:
+            pattern = r"\b" + re.escape(skill) + r"\b"
+            if re.search(pattern, text_lower):
+                found_skills.append(skill)
+                seen_skills.add(skill.lower())
+    
+    # Return with consistent title casing (first word title case)
+    return [skill.title() for skill in found_skills]

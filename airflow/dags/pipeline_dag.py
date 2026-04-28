@@ -1,10 +1,13 @@
 from airflow import DAG
-from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import sys
 import os
+from pathlib import Path
 
-sys.path.insert(0, "/Users/imac/Desktop/de project/job-market-pipeline")
+# Get project root dynamically (2 levels up from dags directory)
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
 from scrapers.naukri_scraper import NaukriScraper
 from transformers.cleaner import clean_job
@@ -78,12 +81,14 @@ def task_transform():
 
 def task_export_to_sheets():
     """Export all data to Google Sheets automatically"""
-    import sys
-    sys.path.insert(0, "/Users/imac/Desktop/de project/job-market-pipeline")
-    from export_to_sheets import export_to_google_sheets, export_to_csv_backup
-    export_to_google_sheets()
-    export_to_csv_backup()
-    logger.info("Data exported to Google Sheets + CSV backup")
+    try:
+        from export_to_sheets import export_to_google_sheets, export_to_csv_backup
+        export_to_google_sheets()
+        export_to_csv_backup()
+        logger.info("✅ Data exported to Google Sheets + CSV backup")
+    except Exception as e:
+        logger.error(f"❌ Export to sheets failed: {e}")
+        raise
 
 
 def task_summary():
@@ -185,7 +190,7 @@ with DAG(
     )
 
     # Pipeline order:
-    # setup_db → scrape_naukri → scrape_linkedin → scrape_indeed
+    # setup_db → [scrape_naukri, scrape_linkedin, scrape_indeed] (parallel)
     #          → transform → export_sheets → summary
 
-    setup_db >> scrape_naukri >> scrape_linkedin >> scrape_indeed >> transform >> export_sheets >> summary
+    setup_db >> [scrape_naukri, scrape_linkedin, scrape_indeed] >> transform >> export_sheets >> summary
