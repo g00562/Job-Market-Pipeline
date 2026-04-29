@@ -49,24 +49,34 @@ class IndeedScraper:
             "num_pages":    "1",
             "date_posted":  "week",
         }
-        try:
-            time.sleep(random.uniform(Config.SCRAPER_DELAY_MIN, Config.SCRAPER_DELAY_MAX))
-            response = requests.get(
-                self.base_url,
-                headers=self.headers,
-                params=params,
-                timeout=Config.SCRAPER_TIMEOUT
-            )
-            if response.status_code != 200:
-                logger.warning(f"⚠️ Indeed API returned {response.status_code}")
+        max_retries = 4
+        for attempt in range(max_retries):
+            try:
+                time.sleep(random.uniform(Config.SCRAPER_DELAY_MIN, Config.SCRAPER_DELAY_MAX))
+                response = requests.get(
+                    self.base_url,
+                    headers=self.headers,
+                    params=params,
+                    timeout=Config.SCRAPER_TIMEOUT
+                )
+                if response.status_code == 429:
+                    wait = (2 ** attempt) * 10 + random.uniform(0, 5)
+                    logger.warning(f"⚠️ Indeed API returned 429. Waiting {wait:.1f}s (attempt {attempt+1}/{max_retries})")
+                    time.sleep(wait)
+                    continue
+                if response.status_code != 200:
+                    logger.warning(f"⚠️ Indeed API returned {response.status_code}")
+                    return []
+
+                data = response.json()
+                return self.parse_jobs(data.get("data", []))
+
+            except Exception as e:
+                logger.error(f"❌ Indeed API error: {e}")
                 return []
 
-            data = response.json()
-            return self.parse_jobs(data.get("data", []))
-
-        except Exception as e:
-            logger.error(f"❌ Indeed API error: {e}")
-            return []
+        logger.error("❌ Indeed API: max retries reached after repeated 429s")
+        return []
 
     def parse_jobs(self, job_list: list) -> list:
         jobs = []

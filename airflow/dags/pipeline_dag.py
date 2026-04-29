@@ -19,10 +19,10 @@ from loaders.postgres_loader import (
 from loguru import logger
 
 default_args = {
-    "owner":            "airflow",
-    "depends_on_past":  False,
-    "retries":          1,
-    "retry_delay":      timedelta(minutes=5),
+    "owner": "airflow",
+    "depends_on_past": False,
+    "retries": 1,
+    "retry_delay": timedelta(minutes=5),
 }
 
 

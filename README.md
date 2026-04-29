@@ -109,12 +109,17 @@ python main.py
 export AIRFLOW_HOME=$(pwd)/airflow
 export PYTHONPATH=$(pwd):$PYTHONPATH
 
-airflow db init
-airflow users create --username admin --password admin \
-  --firstname Admin --lastname User --role Admin --email admin@example.com
+# Initialize DB (Airflow 3.x)
+airflow db migrate
 
+# Start everything in one command
+airflow standalone
+```
+
+Or manually in two terminals:
+```bash
 # Terminal 1
-airflow webserver --port 8080
+airflow api-server --port 8080
 
 # Terminal 2
 airflow scheduler

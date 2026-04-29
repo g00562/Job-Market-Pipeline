@@ -105,6 +105,9 @@ def clean_job(raw_job: dict) -> dict | None:
         return None
 
     city, is_remote        = clean_location(raw_job.get("location"))
+    if not is_remote:
+        desc = (raw_job.get("description") or "").lower()
+        is_remote = any(w in desc for w in ["remote", "work from home", "wfh", "fully remote", "remote work"])
     salary_min, salary_max = parse_salary(raw_job.get("salary_raw"))
     exp_min, exp_max       = parse_experience(raw_job.get("experience"))
 
