@@ -1,13 +1,15 @@
-# Job Market Data Pipeline
+# 🔍 Job Market Intelligence Pipeline
 
-An end-to-end Data Engineering pipeline that scrapes job listings from **Naukri**, **LinkedIn**, and **Indeed**, transforms and stores them in **PostgreSQL**, and exports insights to **Google Sheets**.
+An end-to-end Data Engineering pipeline that scrapes Data Engineering job listings from **Naukri** and **LinkedIn**, transforms and stores them in **PostgreSQL**, and visualizes insights on a live dashboard.
+
+📊 **[Live Dashboard →](https://datastudio.google.com/reporting/d50a8ab8-3a76-4231-9b4e-8f4eecba8298/page/p_vuhdb3162d)**
 
 ---
 
-## Pipeline Flow
+## Pipeline Architecture
 
 ```
-Scrape (Naukri + LinkedIn + Indeed)
+Scrape (Naukri + LinkedIn)
         ↓
   PostgreSQL (jobs_raw)
         ↓
@@ -15,10 +17,22 @@ Scrape (Naukri + LinkedIn + Indeed)
         ↓
   PostgreSQL (jobs_cleaned + skills_extracted)
         ↓
-  Google Sheets + CSV Export
+  Google Sheets → Looker Studio Dashboard
 ```
 
 Orchestrated by **Apache Airflow** on a daily schedule.
+
+---
+
+## Dashboard
+
+The live Looker Studio dashboard has 3 pages:
+
+| Page | Content |
+|---|---|
+| Overview | Total jobs, top cities, jobs by source |
+| Skills & Experience | In-demand skills, experience levels, remote vs on-site |
+| Top Companies | Top hiring companies with job counts |
 
 ---
 
@@ -31,6 +45,7 @@ Orchestrated by **Apache Airflow** on a daily schedule.
 | Transformation | Python, Pandas |
 | Orchestration | Apache Airflow |
 | Export | Google Sheets API, gspread |
+| Visualization | Looker Studio |
 
 ---
 
@@ -44,58 +59,59 @@ job-market-pipeline/
 ├── requirements.txt
 │
 ├── scrapers/
-│   ├── naukri_scraper.py      # Selenium
-│   ├── linkedin_scraper.py    # Public API
-│   └── indeed_scraper.py      # RapidAPI (JSearch)
+│   ├── naukri_scraper.py      # Selenium-based scraper
+│   ├── linkedin_scraper.py    # Public API scraper
+│   └── indeed_scraper.py      # RapidAPI (JSearch) with retry logic
 │
 ├── transformers/
-│   ├── cleaner.py             # Normalize titles, salary, location
-│   ├── skill_extractor.py     # Tag 50+ DE skills
-│   └── deduplicator.py
+│   ├── cleaner.py             # Normalize titles, salary, location, remote detection
+│   ├── skill_extractor.py     # Tags 50+ DE skills from job descriptions
+│   └── deduplicator.py        # Cross-source duplicate detection
 │
 ├── loaders/
 │   └── postgres_loader.py     # DB operations + connection pooling
 │
 ├── sql/
-│   └── create_tables.sql      # Schema
+│   └── create_tables.sql      # Schema definition
 │
 └── airflow/
     └── dags/
-        └── pipeline_dag.py    # DAG definition
+        └── pipeline_dag.py    # Airflow DAG definition
 ```
 
 ---
 
 ## Setup
 
-### 1. Prerequisites
+### Prerequisites
 - Python 3.10+
 - PostgreSQL 13+
 - Google Chrome (for Naukri scraper)
 
-### 2. Install
+### Install
 
 ```bash
-git clone https://github.com/your-username/job-market-pipeline.git
+git clone https://github.com/g00562/Job-Market-Pipeline.git
 cd job-market-pipeline
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Configure
+### Configure
 
 ```bash
 cp .env.example .env
-# Fill in DB_PASSWORD (required), GOOGLE_SHEET_ID, RAPIDAPI_KEY
+# Fill in DB_PASSWORD, GOOGLE_SHEET_ID, RAPIDAPI_KEY
 ```
 
-### 4. Database
+### Database
 
 ```bash
 createdb job_market_db
+psql -U postgres -d job_market_db -f sql/create_tables.sql
 ```
 
-### 5. Run
+### Run
 
 ```bash
 python main.py
@@ -108,21 +124,8 @@ python main.py
 ```bash
 export AIRFLOW_HOME=$(pwd)/airflow
 export PYTHONPATH=$(pwd):$PYTHONPATH
-
-# Initialize DB (Airflow 3.x)
 airflow db migrate
-
-# Start everything in one command
 airflow standalone
-```
-
-Or manually in two terminals:
-```bash
-# Terminal 1
-airflow api-server --port 8080
-
-# Terminal 2
-airflow scheduler
 ```
 
 Open http://localhost:8080 → enable `job_market_pipeline` DAG.
@@ -131,11 +134,10 @@ Open http://localhost:8080 → enable `job_market_pipeline` DAG.
 
 ## Google Sheets Export
 
-Requires a Google Cloud service account with Sheets + Drive API enabled.
-
-1. Download the JSON key → save to `credentials/google_sheets_creds.json`
-2. Share your Google Sheet with the service account email
-3. Set `GOOGLE_SHEET_ID` in `.env`
+1. Create a Google Cloud service account with Sheets + Drive API enabled
+2. Download JSON key → save to `credentials/google_sheets_creds.json`
+3. Share your Google Sheet with the service account email
+4. Set `GOOGLE_SHEET_ID` in `.env`
 
 ```bash
 python export_to_sheets.py
@@ -154,7 +156,8 @@ Exports 6 tabs: `jobs_cleaned`, `top_skills`, `jobs_by_city`, `salary_by_city`, 
 | `DB_NAME` | | Default: `job_market_db` |
 | `GOOGLE_SHEET_ID` | | For Sheets export |
 | `GOOGLE_SHEETS_CREDS` | | Path to service account JSON |
-| `RAPIDAPI_KEY` | | For Indeed scraper |
+| `RAPIDAPI_KEY` | | For Indeed scraper (RapidAPI JSearch) |
+| `INDEED_PAGES_PER_LOCATION` | | Set to `0` to disable Indeed |
 
 ---
 
