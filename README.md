@@ -2,7 +2,7 @@
 
 An end-to-end Data Engineering pipeline that scrapes Data Engineering job listings from **Naukri** and **LinkedIn**, transforms and stores them in **PostgreSQL**, and visualizes insights on a live dashboard.
 
-📊 **[Live Dashboard →](https://datastudio.google.com/reporting/d50a8ab8-3a76-4231-9b4e-8f4eecba8298/page/p_vuhdb3162d)**
+📊 **[Live Dashboard →](https://datastudio.google.com/reporting/d50a8ab8-3a76-4231-9b4e-8f4eecba8298)**
 
 ---
 
